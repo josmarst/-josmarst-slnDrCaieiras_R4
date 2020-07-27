@@ -199,6 +199,7 @@ namespace atribuicaoAulas.Controllers
             Session["usuarioLogado"] = null;
            // Session.Remove("SessionDiasSemanaHorarioTurma");
            // return RedirectToAction("Index", "Escola");
+           // adicionado comentário
             return RedirectToAction("Index", "Home");
 
         }

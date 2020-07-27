@@ -109,6 +109,7 @@ namespace atribuicaoAulas.Controllers
                                             .AsNoTracking().ToList();
 
             List<AulasDisponiveisDescricao> lstaulasdescr = new List<AulasDisponiveisDescricao>();
+            // adicionado comentário
 
             foreach (var item in lstaulas)
             {

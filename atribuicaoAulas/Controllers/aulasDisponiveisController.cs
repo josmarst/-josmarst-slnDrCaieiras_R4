@@ -829,6 +829,8 @@ namespace atribuicaoAulas.Controllers
 			ViewBag.lsDataCadastro = lsDataCadastro;
 
 			return View(aat);
+
+			// adicionado comentário
 		}
 
 		public ActionResult relAulasExcluidas()
