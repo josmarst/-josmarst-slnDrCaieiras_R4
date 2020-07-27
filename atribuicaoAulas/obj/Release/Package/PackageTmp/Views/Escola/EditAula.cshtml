@@ -1,0 +1,52 @@
+﻿@model atribuicaoAulas.Escola
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="panel panel-default ">
+        <!-- Topo -->
+        <div class="panel-heading">
+            <h2>Escolas</h2>
+            <span class="tools pull-right"></span>
+        </div>
+        <div class="form-horizontal">
+                       <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.IdEscola)
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.descrEscola, htmlAttributes: new { @class = "control-label col-md-1" })
+                <div class="col-md-5">
+                    @Html.EditorFor(model => model.descrEscola, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.descrEscola, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            @*@Html.HiddenFor(Model => Model.descrEscola)
+            @Html.HiddenFor(Model => Model.excluido)
+            @Html.HiddenFor(Model => Model.IdEscola)
+            @Html.HiddenFor(Model => Model.Municipio)*@
+
+            @Html.HiddenFor(Model => Model.IdMunicipio)
+          
+          
+                   
+               @*<div class="form-group">
+                    @Html.LabelFor(model => model.IdMunicipio, "IdMunicipio", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.TextBox("IdMunicipio", null, htmlAttributes: new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.Municipio, "", new { @class = "text-danger" })
+                    </div>
+                </div>*@
+
+            <div class="form-group">
+                <div class="col-md-offset-1 col-md-5">
+                    <input type="submit" value="Salvar" class="btn btn-primary btn-large" />
+
+                    @Html.ActionLink("Voltar", "Index", null, null, new { @class = "btn btn-primary btn-large" })
+                    @*@Html.ActionLink("Voltar", "Municipio", "ListarMunicipio", null, new { @class = "btn btn-primary btn-large" })*@
+                </div>
+            </div>
+        </div>
+    </div>
+}
+

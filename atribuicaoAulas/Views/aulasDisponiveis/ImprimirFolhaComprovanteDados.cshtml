@@ -1,0 +1,223 @@
+﻿@model List<atribuicaoAulas.AulasAtribuidas>
+@{
+	Layout = "~/Views/Shared/_Layout.cshtml";
+	var lstAulasDisponiveis = ViewBag.lstAulasDisponiveis;
+	var lstEscolas = ViewBag.lsEscolas;
+	var lstDisciplinas = ViewBag.lsDisciplinas;
+	var lstTipoAulas = ViewBag.lsTipoAulas;
+	var mes = string.Empty;
+}
+
+@using (Html.BeginForm())
+{
+	@Html.AntiForgeryToken()
+	<div id="tabela" class="col-md-11">
+		<div class="panel panel-default">
+			<div class="table-responsive">
+				<table>
+					<thead>
+						<tr>
+							<th>
+								<div class="text-center">
+									<div class="col-md-11">
+										<a title="Diretoria de Ensino - Região de Caieiras"><img src="~/template/resources/img/Banner atribuição.jpg" alt="Diretoria de Ensino - Região de Caieiras"></a>
+									</div>
+									<div class="col-md-11">
+										<h4>Av. Prof. Carvalho Pinto, 159 - Centro - Caieiras - SP - Fone (011) 4442-8600</h4>
+									</div>
+									<div class="col-md-11">
+										<h2><u>FICHA DE ENCAMINHAMENTO - PROCESSO DE ATRIBUIÇÃO DE CLASSES/AULAS ANO @DateTime.Now.Year</u></h2>
+									</div>
+									<br>
+								</div>
+							</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+			<div class="panel-body">
+				<br>
+				<div class="col-md-12 offset-0 ">
+					<div class="col-md-4 col-xs-4 col-lg-4 col-sm-4 margbottom10">
+						<label for=""><b>NOME: </b></label>
+						<label for="documento">@Model[0].NomeProfessor</label>
+						&nbsp;
+						<label for="cpf"><b>CPF: </b></label>
+						<label for="documento">@Model[0].CPF</label>
+						&nbsp;
+						<label for="documento"><b>FONE: </b></label>
+						<label for="documento">@Model[0].TELEFONE</label>
+					</div>
+				</div>
+				<div class="col-md-12 text-center">
+					<h4>Informamos que foram atribuídas as aulas abaixo especificadas para o professor acima identificado, na seguinte conformidade:</h4>
+				</div>
+			</div>
+			<table style="width:100%;" border="1px">
+				<tr>
+					<td align="center" width="5%" rowspan="@(lstAulasDisponiveis.Count + 1)"><b> ATPC's	</b></td>
+					<td width="10%"> <b>TURNO </b></td>
+					<td width="10%"><b>TURMA</b></td>
+					<td width="75%"><b>DESCRIÇÃO ATPC's</b></td>
+				</tr>
+				@foreach (var item in lstAulasDisponiveis)
+				{
+					if (item.IDTURNO == 1)
+					{
+						<tr>
+							<td>MANHÃ </td>
+							<td>@item.TURMA</td>
+							<td>@item.ATPC</td>
+						</tr>
+					}
+					if (item.IDTURNO == 2)
+					{
+						<tr>
+							<td>TARDE </td>
+							<td>@item.TURMA</td>
+							<td>@item.ATPC</td>
+						</tr>
+					}
+					if (item.IDTURNO == 3)
+					{
+						<tr>
+							<td>NOITE </td>
+							<td>@item.TURMA</td>
+							<td>@item.ATPC</td>
+						</tr>
+					}
+				}
+			</table>
+			<br>
+			<table style="width:100%;" border="1px">
+				<tr>
+					<td align="center"> <b> ESCOLA          </b> </td>
+					<td align="center"> <b> DISCIPLINA      </b> </td>
+					<td align="center"> <b> TURMA           </b> </td>
+					<td align="center"> <b> TIPO DE AULA    </b> </td>
+					<td align="center"> <b> QTDE DE AULAS    </b> </td>
+					<td align="center"> <b> TURNO </b> </td>
+					<td align="center"> <b> DT ATRIBUIÇÃO </b> </td>
+				</tr>
+				@for (int i = 0; i < lstAulasDisponiveis.Count; i++)
+				{
+					<tr>
+						<td align="center">@ViewBag.lsEscolas[i]                </td>
+						<td align="center">@ViewBag.lsDisciplinas[i]            </td>
+						<td align="center">@lstAulasDisponiveis[i].TURMA        </td>
+						<td align="center">@ViewBag.lsTipoAulas[i]	            </td>
+						<td align="center">@lstAulasDisponiveis[i].QTDEAULAS    </td>
+						<td align="center">@(lstAulasDisponiveis[i].IDTURNO == 1 ? "Manhã" : lstAulasDisponiveis[i].IDTURNO == 2 ? "Tarde" : "Noite")   </td>
+						<td align="center">@Model[i].DTATRIBUICAO.ToShortDateString()   </td>
+					</tr>
+				}
+			</table>
+			<br>
+			<table style="width:100%;">
+				<tr>
+					<td><b>ATENÇÃO</b>.</td>
+				</tr>
+				<tr>
+					<td><b>I</b>. O PROFESSOR MENCIONADO ACIMA DEVERÁ SE APRESENTAR EM TODAS AS ESCOLAS ESTATUAIS EM QUE TEVE ATRIBUÍDAS AS REFERIDAS AULAS ATÉ O 1° DIA ÚTIL SUBSEQUENTE Á ATRIBUIÇÃO, ENTREGANDO UMA CÓPIA DESTE ENCAMINHAMENTO.</td>
+				</tr>
+				<tr>
+					<td><b>II</b>. A SEDE DE CONTROLE DE FREQUENCIA DO PROFESSOR, DE ACORDO COM A LEGISLAÇÃO VIGENTE, SERÁ A ESCOLA QUE TIVER ATRIBUÍDO MAIOR NÚMERO DE AULAS.</td>
+				</tr>
+			</table>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<table style="width:100%; border:solid">
+				<tr>
+					<td>O DOCENTE QUE NÃO COMPARECER OU NÃO SE COMUNICAR COM A UNIDADE ESCOLAR, NO 1º DIA ÚTIL SUBSEQUENTE AO DA ATRIBUIÇÃO, DE ACORDO COM A LEGISLAÇÃO VIGENTE, SERÁ CONSIDERADO DESISTENTE E PERDERÁ A CLASSE OU AULAS, FICANDO IMPEDIDO DE CONCORRER À NOVA ATRIBUIÇÃO NO DECORRER DO ANO.</td>
+				</tr>
+			</table>
+			<br>
+		</div>
+		@switch (DateTime.Now.Month)
+		{
+			case 1: mes = "janeiro"; break;
+			case 2: mes = "fevereiro"; break;
+			case 3: mes = "março"; break;
+			case 4: mes = "abril"; break;
+			case 5: mes = "maio"; break;
+			case 6: mes = "junho"; break;
+			case 7: mes = "julho"; break;
+			case 8: mes = "agosto"; break;
+			case 9: mes = "setembro"; break;
+			case 10: mes = "outubro"; break;
+			case 11: mes = "novembro"; break;
+			case 12: mes = "dezembro"; break;
+
+		}
+		<div>
+
+			<table style="width:100%;">
+				<tr style="height:60px">
+					<td> Caieiras, @DateTime.Now.Day de @mes de @DateTime.Now.Year.</td>
+					<td> </td>
+				</tr>
+
+				<tr>
+
+					<td>_______________________________________________________</td>
+
+					<td>_______________________________________________________</td>
+
+				</tr>
+
+				<tr>
+
+					<td>Assinatura e Carimbo do Responsável pela Atribuição</td>
+
+					<td>Assinatura do Professor</td>
+
+				</tr>
+
+			</table>
+
+		</div>
+
+	</div>
+
+	<br>
+
+	<div class="form-group">
+		<div class="col-md-10">
+			@Html.ActionLink("Imprimir", null, null, new { @class = "btn btn-primary btn-large", @onclick = "CriaPDF();" })
+			<a href="javascript:history.back()" class="btn btn-primary btn-large" role="button" aria-pressed="true">Voltar</a>
+		</div>
+	</div>
+}
+
+@section PageScript{
+	<script src="~/template/js/plugins/sortable.js"></script>
+	<script src="~/template/js/plugins/jquery.mask.js"></script>
+	<script src="~/Scripts/Modulos/Atendimento/Pages/Interacao/Index.js"></script>
+	<script src="~/Scripts/Modulos/Atendimento/Atendimento.js"></script>
+}
+
+
+<script>
+	function CriaPDF() {
+		var minhaTabela = document.getElementById('tabela').innerHTML;
+
+		var style = "<style>";
+		style = style + "table {width: 100%;font: 10px Arial;}";
+		style = style + "table, th, td {border: solid 1px #DDD; border-collapse: collapse;";
+		style = style + "padding: 2px 3px;text-left: left;}";
+		style = style + "</style>";
+
+		var win = window.open('', '', 'height=700,width=700');      // CRIA UM OBJETO WINDOW
+
+		win.document.write('<html><head>');
+		win.document.write('<title>Atribuição de Aulas</title>');   // <title> CABEÇALHO DO PDF.
+		win.document.write(style);                                  // INCLUI UM ESTILO NA TAB HEAD
+		win.document.write('</head>');
+		win.document.write('<body>');
+		win.document.write(minhaTabela);                            // O CONTEUDO DA TABELA DENTRO DA TAG BODY
+		win.document.write('</body></html>');
+
+		win.document.close();                                       // FECHA A JANELA
+
+		win.print();                                                // IMPRIME O CONTEUDO
+	}
+</script>

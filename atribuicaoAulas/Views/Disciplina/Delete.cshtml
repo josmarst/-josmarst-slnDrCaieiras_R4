@@ -1,0 +1,35 @@
+﻿@model atribuicaoAulas.Disciplina
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Excluir</h2>
+
+<h4>Tem certeza que deseja excluir essa Disciplina?</h4>
+<div>
+
+    <hr />
+    <h3>
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.descrDisciplina)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.descrDisciplina)
+            </dd>
+
+        </dl>
+    </h3>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Excluir" class="btn btn-danger" />
+            @Html.ActionLink("Voltar", "Index", null, null, new { @class = "btn btn-primary btn-large" })
+        </div>
+    }
+</div>
+

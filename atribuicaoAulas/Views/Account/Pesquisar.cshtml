@@ -1,0 +1,138 @@
+﻿@model List<atribuicaoAulas.ACESSO>
+@{
+    var viewBagNomeEscola = ViewBag.ViewBagEscolas;
+    var ViewBagPerfil = ViewBag.ViewBagPerfil;
+}
+
+<div class="panel panel-default ">
+    <div class="panel-heading">
+        <h2>Pesquisa de Usuário</h2>
+        <span class="tools pull-right">  </span>
+    </div>
+    <div class="panel-body">
+        <div class="col-lg-12 offset-0">
+            <!-- table responsive -->
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover table-striped sortable-theme-bootstrap table-link border0" data-sortable>
+                    <thead>
+                        <tr>
+                            <th> CPF    </th>
+                            <th> Nome   </th>
+                            <th> Escola </th>
+                            <th> E-mail </th>
+                            <th> Perfil </th>
+                            <th> Ativo  </th>
+                            <th>        </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @item.CPF
+                                </td>
+                                <td>
+                                    @item.NOME
+                                </td>
+                                @foreach (var escola in viewBagNomeEscola)
+                                {
+                                    if (escola.Value == item.IDESCOLA.ToString())
+                                    {
+                                        <td>@escola.Text</td>
+                                    }
+                                }
+                                <td>
+                                    @item.Email
+                                </td>
+                                @foreach (var perfil in ViewBagPerfil)
+                                {
+                                    if (perfil.Value == item.IDPERFIL.ToString())
+                                    {
+                                        <td>@perfil.Text</td>
+                                    }
+                                }
+                                <td>
+                                    @item.ATIVO
+                                </td>
+
+                                <td>
+                                    @Html.ActionLink(item.ATIVO == "S" ? "Desativar" : "Ativar", "AlteraAcesso", new { id = item.CPF }, null)
+                                    @*@Html.ActionLink("ExcluirV", "Excluir", new { id = item.CPF }, null)
+                                        <a href="#" onclick="ConfirmDelete(@item.CPF)">ExcluirN</a>*@
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+                <div class="modal fade" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <a href="#" class="close" data-dismiss="modal">&times;</a>
+                                <h3 class="modal-title">Excluir</h3>
+                            </div>
+                            <div class="modal-body">
+                                <h4>Deseja excluir o registro? </h4>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="btn btn-default" data-dismiss="modal">Cancelar</a>
+                                <a href="#" class="btn btn-success" onclick="DeleteRegister()">Excluir</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModalErro">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <a href="#" class="close" data-dismiss="modal">&times;</a>
+                                <h3 class="modal-title">Erro de Exclusão!</h3>
+                            </div>
+                            <div class="modal-body">
+                                <h4>O registro não pôde ser excluído. Ocorreu um erro.  </h4>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="btn btn-warning" data-dismiss="modal">OK</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <input type="hidden" id="hiddenCPF" />
+
+                <div>
+                    @Html.ActionLink("Voltar", "Register", null, null, new { @class = "btn btn-primary btn-large" })
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    var ConfirmDelete = function (CPF) {
+        $("#hiddenCPF").val(CPF);
+        $("#myModal").modal("show");
+    }
+
+    var DeleteRegister = function () {
+        var id = $("#hiddenCPF").val();
+        $.ajax({
+            type: "POST",
+            url: "/Account/Excluir",
+            data: { id: id },
+            dataType: "json",
+            success: function (result) {
+                if (result == false) {
+                    $("#myModal").modal("hide");
+                    $("#myModalErro").modal("show");
+                }
+                else {
+                    $("#myModal").modal("hide");
+                    window.location.href = "/Account/Pesquisar";
+                }
+            }
+        });
+    }
+</script>

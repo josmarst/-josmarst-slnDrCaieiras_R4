@@ -1,0 +1,226 @@
+﻿@model atribuicaoAulas.AULASDISPONIVEIS
+
+@{
+    String usu = ((atribuicaoAulas.ACESSO)(Session["usuariologado"])).CPF;
+    var arrDiadasemana = @Model.DIADASEMANA.Trim().Split(',').ToList();
+    var arrHorario = @Model.HORARIO.Trim().Split(',').ToList();
+    var list = "";
+
+    var str11 = ""; var str12 = ""; var str13 = ""; var str14 = ""; var str15 = "";
+    var str21 = ""; var str22 = ""; var str23 = ""; var str24 = ""; var str25 = "";
+    var str31 = ""; var str32 = ""; var str33 = ""; var str34 = ""; var str35 = "";
+    var str41 = ""; var str42 = ""; var str43 = ""; var str44 = ""; var str45 = "";
+    var str51 = ""; var str52 = ""; var str53 = ""; var str54 = ""; var str55 = "";
+    var str16 = ""; var str26 = ""; var str36 = ""; var str46 = ""; var str56 = "";
+}
+
+<div class="panel panel-default ">
+    <div class="panel-heading">
+        <h2>Editar - @ViewBag.NomeEscola</h2>
+        <span class="tools pull-right">  </span>
+    </div>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal" id="formBusca">
+
+            <hr />
+            @Html.HiddenFor(model => model.CPFCADASTRO, "cpfcadastro")
+            @Html.HiddenFor(model => model.DTCADASTRO, "dtcadastro")
+
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.IDAULASDISPONIVEIS)
+            <div class="form-group">
+                @Html.LabelForModel("Disciplina:", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-5">
+                    @Html.DropDownList("idDisciplina", (SelectList)ViewBag.IdDisciplina, (string)ViewBag.descrDisciplina, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.IDDISCIPLINA, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelForModel("Turno:", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-5">
+                    @Html.DropDownList("idTurno", (SelectList)ViewBag.IdTurno, (string)ViewBag.descrTurno, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.IDTURNO, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelForModel("Tipo de aula:", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-5">
+                    @Html.DropDownList("idTipoAula", (SelectList)ViewBag.IdTipoAula, (string)ViewBag.descrTipoAula, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.IDTIPOAULA, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelForModel("Tipo de afastamento:", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-5">
+                    @Html.DropDownList("IdAfastamento", (SelectList)ViewBag.IdAfastamento, (string)ViewBag.descrAfastamento, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.IDAFASTAMENTO, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.Label("Período de Afastamento:", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-5">
+                    @Html.EditorFor(model => model.PERIODOAFASTAMENTO, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.PERIODOAFASTAMENTO, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group" hidden="hidden">
+                @Html.LabelFor(model => Model.TURMA, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-5">
+                    @Html.EditorFor(model => Model.TURMA, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => Model.TURMA, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="line3"></div>
+            <div class="bg-important col-md-8  col-md-offset-1" style="background-color: #EEE">
+                <div class="line3"></div>
+                <div class="panel-body" id="turno1">
+                    <div class="col-lg-12 offset-0">
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-hover table-striped sortable-theme-bootstrap table-link border0" data-sortable>
+                                <thead>
+                                    <tr>
+                                        <th>		</th>
+                                        <th> Segunda</th>
+                                        <th> Terça</th>
+                                        <th> Quarta</th>
+                                        <th> Quinta</th>
+                                        <th> Sexta</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @for (int i = 0; i < Model.QTDEAULAS; i++)
+                                    {
+                                        #region setaVariaveis
+                                        if (arrDiadasemana[i] == "1" && arrHorario[i] == "1") { str11 = Model.TURMA; }
+                                        if (arrDiadasemana[i] == "1" && arrHorario[i] == "2") { str12 = Model.TURMA; }
+                                        if (arrDiadasemana[i] == "1" && arrHorario[i] == "3") { str13 = Model.TURMA; }
+                                        if (arrDiadasemana[i] == "1" && arrHorario[i] == "4") { str14 = Model.TURMA; }
+                                        if (arrDiadasemana[i] == "1" && arrHorario[i] == "5") { str15 = Model.TURMA; }
+                                        if (arrDiadasemana[i] == "1" && arrHorario[i] == "6") { str16 = Model.TURMA; }
+
+                                        if (arrDiadasemana[i] == "2" && arrHorario[i] == "1") { str21 = Model.TURMA; }
+                                        if (arrDiadasemana[i] == "2" && arrHorario[i] == "2") { str22 = Model.TURMA; }
+                                        if (arrDiadasemana[i] == "2" && arrHorario[i] == "3") { str23 = Model.TURMA; }
+                                        if (arrDiadasemana[i] == "2" && arrHorario[i] == "4") { str24 = Model.TURMA; }
+                                        if (arrDiadasemana[i] == "2" && arrHorario[i] == "5") { str25 = Model.TURMA; }
+                                        if (arrDiadasemana[i] == "2" && arrHorario[i] == "6") { str26 = Model.TURMA; }
+
+                                        if (arrDiadasemana[i] == "3" && arrHorario[i] == "1") { str31 = Model.TURMA; }
+                                        if (arrDiadasemana[i] == "3" && arrHorario[i] == "2") { str32 = Model.TURMA; }
+                                        if (arrDiadasemana[i] == "3" && arrHorario[i] == "3") { str33 = Model.TURMA; }
+                                        if (arrDiadasemana[i] == "3" && arrHorario[i] == "4") { str34 = Model.TURMA; }
+                                        if (arrDiadasemana[i] == "3" && arrHorario[i] == "5") { str35 = Model.TURMA; }
+                                        if (arrDiadasemana[i] == "3" && arrHorario[i] == "6") { str36 = Model.TURMA; }
+
+                                        if (arrDiadasemana[i] == "4" && arrHorario[i] == "1") { str41 = Model.TURMA; }
+                                        if (arrDiadasemana[i] == "4" && arrHorario[i] == "2") { str42 = Model.TURMA; }
+                                        if (arrDiadasemana[i] == "4" && arrHorario[i] == "3") { str43 = Model.TURMA; }
+                                        if (arrDiadasemana[i] == "4" && arrHorario[i] == "4") { str44 = Model.TURMA; }
+                                        if (arrDiadasemana[i] == "4" && arrHorario[i] == "5") { str45 = Model.TURMA; }
+                                        if (arrDiadasemana[i] == "4" && arrHorario[i] == "6") { str46 = Model.TURMA; }
+
+                                        if (arrDiadasemana[i] == "5" && arrHorario[i] == "1") { str51 = Model.TURMA; }
+                                        if (arrDiadasemana[i] == "5" && arrHorario[i] == "2") { str52 = Model.TURMA; }
+                                        if (arrDiadasemana[i] == "5" && arrHorario[i] == "3") { str53 = Model.TURMA; }
+                                        if (arrDiadasemana[i] == "5" && arrHorario[i] == "4") { str54 = Model.TURMA; }
+                                        if (arrDiadasemana[i] == "5" && arrHorario[i] == "5") { str55 = Model.TURMA; }
+                                        if (arrDiadasemana[i] == "5" && arrHorario[i] == "6") { str56 = Model.TURMA; }
+                                        #endregion
+                                    }
+                                    <tr>
+                                        <td class="form-control"><B>1º Aula   </B></td>
+                                        <td>@Html.TextBox("turma", str11, new { @class = "form-control semana" })</td>
+                                        <td>@Html.TextBox("turma", str21, new { @class = "form-control semana" })</td>
+                                        <td>@Html.TextBox("turma", str31, new { @class = "form-control semana" })</td>
+                                        <td>@Html.TextBox("turma", str41, new { @class = "form-control semana" })</td>
+                                        <td>@Html.TextBox("turma", str51, new { @class = "form-control semana" })</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="form-control"><B>2º Aula   </B></td>
+                                        <td>@Html.TextBox("turma", str12, new { @class = "form-control semana" })</td>
+                                        <td>@Html.TextBox("turma", str22, new { @class = "form-control semana" })</td>
+                                        <td>@Html.TextBox("turma", str32, new { @class = "form-control semana" })</td>
+                                        <td>@Html.TextBox("turma", str42, new { @class = "form-control semana" })</td>
+                                        <td>@Html.TextBox("turma", str52, new { @class = "form-control semana" })</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="form-control"><B>3º Aula   </B></td>
+                                        <td>@Html.TextBox("turma", str13, new { @class = "form-control semana" })</td>
+                                        <td>@Html.TextBox("turma", str23, new { @class = "form-control semana" })</td>
+                                        <td>@Html.TextBox("turma", str33, new { @class = "form-control semana" })</td>
+                                        <td>@Html.TextBox("turma", str43, new { @class = "form-control semana" })</td>
+                                        <td>@Html.TextBox("turma", str53, new { @class = "form-control semana" })</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="form-control"><B>4º Aula   </B></td>
+                                        <td>@Html.TextBox("turma", str14, new { @class = "form-control semana" })</td>
+                                        <td>@Html.TextBox("turma", str24, new { @class = "form-control semana" })</td>
+                                        <td>@Html.TextBox("turma", str34, new { @class = "form-control semana" })</td>
+                                        <td>@Html.TextBox("turma", str44, new { @class = "form-control semana" })</td>
+                                        <td>@Html.TextBox("turma", str54, new { @class = "form-control semana" })</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="form-control"><B>5º Aula   </B></td>
+                                        <td>@Html.TextBox("turma", str15, new { @class = "form-control semana" })</td>
+                                        <td>@Html.TextBox("turma", str25, new { @class = "form-control semana" })</td>
+                                        <td>@Html.TextBox("turma", str35, new { @class = "form-control semana" })</td>
+                                        <td>@Html.TextBox("turma", str45, new { @class = "form-control semana" })</td>
+                                        <td>@Html.TextBox("turma", str55, new { @class = "form-control semana" })</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="form-control"><B>6º Aula   </B></td>
+                                        <td>@Html.TextBox("turma", str16, new { @class = "form-control semana" })</td>
+                                        <td>@Html.TextBox("turma", str26, new { @class = "form-control semana" })</td>
+                                        <td>@Html.TextBox("turma", str36, new { @class = "form-control semana" })</td>
+                                        <td>@Html.TextBox("turma", str46, new { @class = "form-control semana" })</td>
+                                        <td>@Html.TextBox("turma", str56, new { @class = "form-control semana" })</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <td>@Html.TextBox("atpc", Model.ATPC, new { @class = "form-control" })</td>
+                </div>
+                <div class="line3"></div>
+                <div class="line3"></div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="line3"></div>
+            @Html.HiddenFor(model => model.IDESCOLA, "")
+            @Html.HiddenFor(model => model.QTDEAULAS)
+            @Html.HiddenFor(model => model.DIADASEMANA, list)
+            @Html.HiddenFor(model => model.HORARIO)
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Salvar" class="btn btn-primary btn-large" onclick="getSelected(); return false;" />
+                    @Html.ActionLink("Voltar", "Index", null, null, new { @class = "btn btn-primary btn-large" })
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<script>
+
+    function getSelected() {
+        list = $(".semana");
+        var listArray = "";
+        for (var i = 0; i < list.length; i++) {
+            if (list[i].value != "") {
+                listArray = listArray + i + ",";
+            }
+        }
+        $("#HORARIO").val(listArray);
+
+        document.getElementById("formBusca").submit();
+    }
+</script>

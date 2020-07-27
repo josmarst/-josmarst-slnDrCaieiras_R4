@@ -1,0 +1,54 @@
+﻿@model List<atribuicaoAulas.AulasDisponiveisDescricao>
+@{
+    var viewBagNomeEscola = ViewBag.Escola.descrEscola;
+    var viewBagMunicipio = ViewBag.Escola.Municipio.descrMunicipio;
+    var idMunicipio = ((atribuicaoAulas.Escola)ViewBag.Escola).IdMunicipio;
+    var idEscola = ((atribuicaoAulas.Escola)ViewBag.Escola).IdEscola;
+}
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h2>@viewBagNomeEscola - @viewBagMunicipio</h2>
+        <span class="tools pull-right">  </span>
+    </div>
+    <div class="panel-body">
+        <div class="col-lg-12 offset-0">
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover table-striped sortable-theme-bootstrap table-link border0" data-sortable>
+                    <thead>
+                        <tr>
+                            <th> Disciplina         </th>
+                            <th> Turno              </th>
+                            <th> Tipo de Aula       </th>
+                            <th> Motivo Afastamento </th>
+                            @*<th> Turma              </th>*@
+                            <th> Qtde de Aulas      </th>
+                            <th> Detalhes           </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => item.Disciplina)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Turno)</td>
+                                <td>@Html.DisplayFor(modelItem => item.TipoAula) </td>
+                                <td>@Html.DisplayFor(modelItem => item.Afastamento) </td>
+                                @*<td>@Html.DisplayFor(modelItem => item.turma)  </td>*@
+                                <td>@Html.DisplayFor(modelItem => item.qtdeAulas)  </td>
+                                <td>
+                                    @Html.ActionLink("Detalhes", "DetailsEscola", "aulasDisponiveis", new { idEscola = idEscola, idDisciplina = item.idDisciplina, item.profTitular}, null)
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <div class="clearfix"></div>
+                <div class="line3"></div>
+                <div>
+                    <a href="javascript:history.back()" class="btn btn-primary btn-large" role="button" aria-pressed="true">Voltar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

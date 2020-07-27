@@ -1,0 +1,89 @@
+﻿@model atribuicaoAulas.aulasDisponiveis
+@{
+    ViewBag.Title = "aulasDispiniveis";
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.idDisciplina)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.idTurno)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.idTipoAula)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.idAfastamento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PeriodoAfastamento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.qtdeAulas)
+        </th>
+        <th></th>
+    </tr>
+
+    @*@foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Estado.desricao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.descrMunicipio)
+                @Html.ActionLink(item.descrMunicipio, "Edit", new { id = item.IdMunicipio })
+            </td>
+            @*<td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.IdMunicipio }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.IdMunicipio }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.IdMunicipio })
+                </td>
+        </tr>
+    }*@
+
+</table>
+
+@*@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Escola</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.IdEscola)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.descrEscola, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.descrEscola, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.descrEscola, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.IdMunicipio, "IdMunicipio", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("IdMunicipio", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.IdMunicipio, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}*@
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

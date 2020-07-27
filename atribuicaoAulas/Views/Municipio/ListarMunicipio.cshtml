@@ -1,0 +1,50 @@
+﻿@model IEnumerable<atribuicaoAulas.Escola>
+
+
+@{
+    var municipio = ViewBag.descrMunicipio;
+}
+
+<div class="panel panel-default ">
+    <!-- Topo -->
+    <div class="panel-heading">
+        <h2>Município - @municipio</h2>
+        <span class="tools pull-right">  </span>
+    </div>
+    <div class="panel-body">
+        <div class="col-lg-12 offset-0">
+            <!-- table responsive -->
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover table-striped sortable-theme-bootstrap table-link border0" data-sortable>
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayName("Município")
+                            </th>
+                            <th>
+                                @Html.DisplayName("Escola")
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Municipio.descrMunicipio)
+                                </td>
+                                <td>
+                                    @Html.ActionLink(item.descrEscola, "EditAula", "Escola", new { id = item.IdEscola }, null)
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <div>
+                    @Html.ActionLink("Voltar", "Index", null, null, new { @class = "btn btn-primary btn-large" })
+                    @*@Html.ActionLink("Voltar", "ListarMunicipio", "Municipio", null, new { @class = "btn btn-primary btn-large" })*@
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

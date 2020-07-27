@@ -1,0 +1,136 @@
+﻿@model List<atribuicaoAulas.AULASDISPONIVEIS>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var Disciplina = ViewBag.IdDisciplina;
+    var Escola = ViewBag.IdEscola;
+   }
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="panel panel-default  col-lg-14">
+        <div class="panel-heading">
+            <h2>Aulas Não Atribuídas</h2>
+            <span class="tools pull-right">  </span>
+        </div>
+        <div class="panel-body">
+            <div class="offset-0">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover table-striped sortable-theme-bootstrap table-link border0" data-sortable>
+                        <thead>
+                            <tr>
+                                <th>
+                                    <div class="form-group">
+                                        <strong>
+                                            @Html.LabelForModel("CPF", htmlAttributes: new { @class = "control-label col-md-1" })
+                                        </strong>
+                                        <div class="col-md-2">
+                                            @Html.Editor("CPF", new { htmlAttributes = new { @class = "form-control somenteNumero", placeholder = "CPF Somente Números", maxlength = "11" } })
+                                        </div>
+
+                                        @if (((atribuicaoAulas.ACESSO)(Session["usuarioLogado"])).IDPERFIL == 1 || ((atribuicaoAulas.ACESSO)(Session["usuarioLogado"])).IDPERFIL == 3)  //admin
+                                        {
+                                            <strong>
+                                                @Html.LabelForModel("Disciplina", htmlAttributes: new { @class = "control-label col-md-1" })
+                                            </strong>
+                                            <div class="col-md-2">
+                                                @Html.DropDownList("idDisciplina", (SelectList)ViewBag.IdDisciplina, "--  Selecione  --", new { @class = "form-control" })
+                                            </div>
+                                            <strong>
+                                                @Html.LabelForModel("Escola", htmlAttributes: new { @class = "control-label col-md-1" })
+                                            </strong>
+
+                                            <div class="col-md-2">
+                                                @Html.DropDownList("idEscola", (SelectList)ViewBag.IDESCOLA, "--  Selecione  --", new { @class = "form-control" })
+                                            </div>
+                                            <strong>
+                                                @Html.LabelForModel("Data Cadastro", htmlAttributes: new { @class = "control-label col-md-1" })
+                                            </strong>
+                                            <div class="col-md-2">
+                                                @Html.Editor("dtcadastro", new { htmlAttributes = new { @class = "form-control fa fa-calendar", placeholder = "dd/mm/aaaa", maxlength = "10" } })
+                                            </div>
+                                        }
+                                        else
+                                        {
+                                            <strong>
+                                                @Html.LabelForModel("Disciplina", htmlAttributes: new { @class = "control-label col-md-1", @hidden = "hidden" })
+                                            </strong>
+                                            <div class="col-md-2">
+                                                @Html.DropDownList("idDisciplina", (SelectList)ViewBag.IdDisciplina, "--  Selecione  --", new { @class = "form-control", @hidden = "hidden" })
+                                            </div>
+                                            <strong>
+                                                @Html.LabelForModel("Escola", htmlAttributes: new { @class = "control-label col-md-1", @hidden = "hidden" })
+                                            </strong>
+                                            <div class="col-md-2">
+                                                @Html.DropDownList("idEscola", (SelectList)ViewBag.IDESCOLA, "--  Selecione  --", new { @class = "form-control", @hidden = "hidden" })
+                                            </div>
+                                            <strong>
+                                                @Html.LabelForModel("Data Cadastro", htmlAttributes: new { @class = "control-label col-md-1", @hidden = "hidden" })
+                                            </strong>
+                                            <div class="col-md-2">
+                                                @Html.Editor("dtcadastro", new { htmlAttributes = new { @class = "form-control", @hidden = "hidden", placeholder = "dd/mm/aaaa", maxlength = "10" } })
+                                            </div>
+                                        }
+                                    </div>
+                                </th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <input type="button" value="Pesquisar" onclick="Pesquisar(); return false;" class="btn btn-primary btn-large" />
+        <a href="javascript:history.back()" class="btn btn-primary btn-large" role="button" aria-pressed="true">Voltar</a>
+    </div>
+    <div class="collapse" id="collapseBusca2" aria-expanded="true">
+        <div class="row">
+            <div class="col-lg-12" id="tblResultadoDaBusca">			</div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="col-md-12 margtop10" id="divMsg">
+    </div>
+}
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+<script type="text/javascript">
+
+    function Pesquisar() {
+        var CPF = $('#CPF').val();
+        var IDDISCIPLINA = $('#idDisciplina').val();
+        var IDESCOLA = $('#idEscola').val();
+        var DTCADASTRO = $('#dtcadastro').val();
+
+        $.ajax(
+			{
+			    type: 'POST',
+			    url: '/aulasDisponiveis/PesquisaAulasNaoAtribuidas',
+			    data: { CPF: CPF, IDDISCIPLINA: IDDISCIPLINA, IDESCOLA: IDESCOLA, DTCADASTRO: DTCADASTRO },
+			    dataType: 'html',
+			    cache: false,
+			    async: true,
+			    success: function (result) {
+			        $('#tblResultadoDaBusca').html(result);
+			        $('#collapseBusca2').collapse('show');
+			    },
+			    error: function (result) {
+			        mostrarMensagemErro("Erro ao buscar os dados.");
+			    }
+			});
+    }
+
+    $(document).ready(function () {
+        $(".somenteNumero").bind("keyup blur focus", function (e) {
+            e.preventDefault();
+            var expre = /[^\d]/g;
+            $(this).val($(this).val().replace(expre, ''));
+        });
+    });
+
+    function mostrarMensagemErro(mensagem, divMsg) {
+        $(divMsg).append('<div class="alert alert-block alert-danger fade in">  <button data-dismiss="alert" class="close close-sm" type="button"> <i class="fa fa-times"></i>  </button><span class="bold">' + mensagem + '</span></div>');
+    }
+</script>

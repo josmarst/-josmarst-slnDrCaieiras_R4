@@ -1,0 +1,128 @@
+﻿@model List<atribuicaoAulas.AulasAtribuidas>
+@{
+	Layout = "~/Views/Shared/_Layout.cshtml";
+	var Disciplina = ViewBag.IdDisciplina;
+	var Escola = ViewBag.IdEscola;
+	//  var lstAulasDisponiveis = ViewBag.lstAulasDisponiveis;
+	//  var lstEscolas = ViewBag.lsEscolas;
+	//  var lstDisciplinas = ViewBag.lsDisciplinas;
+    //	var lstTipoAulas = ViewBag.IdTipoAula;
+}
+
+@using (Html.BeginForm())
+{
+	@Html.AntiForgeryToken()
+	<div class="panel panel-default  col-lg-14">
+		<div class="panel-heading">
+			<h2>Aulas Atribuídas</h2>
+			<span class="tools pull-right">  </span>
+		</div>
+		<div class="panel-body">
+			<div class="offset-0">
+				<div class="table-responsive">
+					<table class="table table-bordered table-hover table-striped sortable-theme-bootstrap table-link border0" data-sortable>
+						<thead>
+							<tr>
+								<th>
+									<div class="form-group">
+										<strong>
+											@Html.LabelForModel("CPF", htmlAttributes: new { @class = "control-label col-md-1" })
+										</strong>
+										<div class="col-md-2">
+											@Html.Editor("CPF", new { htmlAttributes = new { @class = "form-control somenteNumero", placeholder = "CPF Somente Números", maxlength = "11" } })
+										</div>
+
+										@if (((atribuicaoAulas.ACESSO)(Session["usuarioLogado"])).IDPERFIL == 1 || ((atribuicaoAulas.ACESSO)(Session["usuarioLogado"])).IDPERFIL == 3)  //admin
+										{
+											<strong>
+												@Html.LabelForModel("Disciplina", htmlAttributes: new { @class = "control-label col-md-1" })
+											</strong>
+											<div class="col-md-2">
+												@Html.DropDownList("idDisciplina", (SelectList)ViewBag.IdDisciplina, "--  Selecione  --", new { @class = "form-control" })
+											</div>
+											<strong>
+												@Html.LabelForModel("Escola", htmlAttributes: new { @class = "control-label col-md-1" })
+											</strong>
+
+											<div class="col-md-2">
+												@Html.DropDownList("idEscola", (SelectList)ViewBag.IDESCOLA, "--  Selecione  --", new { @class = "form-control" })
+											</div>
+										}
+										else
+										{
+											<strong>
+												@Html.LabelForModel("Disciplina", htmlAttributes: new { @class = "control-label col-md-1", @hidden = "hidden" })
+											</strong>
+											<div class="col-md-2">
+												@Html.DropDownList("idDisciplina", (SelectList)ViewBag.IdDisciplina, "--  Selecione  --", new { @class = "form-control", @hidden = "hidden" })
+											</div>
+											<strong>
+												@Html.LabelForModel("Escola", htmlAttributes: new { @class = "control-label col-md-1", @hidden = "hidden" })
+											</strong>
+											<div class="col-md-2">
+												@Html.DropDownList("idEscola", (SelectList)ViewBag.IDESCOLA, "--  Selecione  --", new { @class = "form-control", @hidden = "hidden" })
+											</div>
+										}
+										</div>
+								</th>
+							</tr>
+						</thead>
+					</table>
+				</div>
+			</div>
+		</div>
+		<input type="button" value="Filtrar" onclick="Pesquisar(); return false;" class="btn btn-success btn-large" />
+		@*<a href="javascript:history.back()" class="btn btn-primary btn-large" role="button" aria-pressed="true">Voltar</a>*@
+	</div>
+	
+    <!-- RESULTADO DO Filtro -->
+    <div id="divFiltro" class="panel-heading">
+        @{Html.RenderPartial("PesquisaAulasAtribuidas");}
+    </div>
+    <!-- FIM RESULTADO DO Filtro -->
+
+	<div class="clearfix"></div>
+	<div class="col-md-12 margtop10" id="divMsg">
+	</div>
+}
+
+<script type="text/javascript">
+
+	function Pesquisar() {
+
+		var CPF = $('#CPF').val();
+		var IDDISCIPLINA = $('#idDisciplina').val();
+		var IDESCOLA = $('#idEscola').val();
+
+		$.ajax(
+			{
+				type: 'POST',
+				url: '/aulasDisponiveis/PesquisaAulasAtribuidas',
+				data: { CPF: CPF, IDDISCIPLINA: IDDISCIPLINA, IDESCOLA: IDESCOLA },
+				dataType: 'html',
+				cache: false,
+				async: true,
+				success: function (result) {
+				    //  $("#divIndex").hide();
+				    $("#divFiltro").show();
+				    $('#divFiltro').html(result);
+				    //  $('#divIndex').collapse('show');
+				},
+				error: function (result) {
+				    mostrarMensagemErro("Erro ao buscar os dados.");
+				}
+			});
+	}
+
+	$(document).ready(function () {
+		$(".somenteNumero").bind("keyup blur focus", function (e) {
+			e.preventDefault();
+			var expre = /[^\d]/g;
+			$(this).val($(this).val().replace(expre, ''));
+		});
+	});
+
+	function mostrarMensagemErro(mensagem, divMsg) {
+		$(divMsg).append('<div class="alert alert-block alert-danger fade in">  <button data-dismiss="alert" class="close close-sm" type="button"> <i class="fa fa-times"></i>  </button><span class="bold">' + mensagem + '</span></div>');
+	}
+</script>

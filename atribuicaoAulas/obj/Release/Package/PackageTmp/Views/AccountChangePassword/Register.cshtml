@@ -1,0 +1,61 @@
+﻿@model atribuicaoAulas.ACESSO
+
+<div class="panel panel-default ">
+    <!-- Topo -->
+    <div class="panel-heading">
+        <h2>Login</h2>
+        <span class="tools pull-right">  </span>
+    </div>
+    <div class="col-md-8">
+        <section id="loginForm">
+            @using (Html.BeginForm("Register", "AccountChangePassword", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+                @Html.Hidden("CPF", Model.CPF)
+                @Html.Hidden("ATIVO", Model.ATIVO)
+                @Html.Hidden("IdPERFIL", Model.IDPERFIL)
+                @Html.Hidden("NOME", Model.NOME)
+                @Html.Hidden("idEscola", Model.IDESCOLA)
+                @Html.Hidden("Email", Model.Email)
+
+                @Html.AntiForgeryToken()
+                <hr />
+                @Html.ValidationSummary("", new { @class = "text-danger" })
+
+                <div class="form-group">
+                    @Html.Label("Nova Senha", new { @class = "col-md-2 control-label", @id="txtSenha" })
+                    <div class="col-md-5">
+                        @Html.PasswordFor(m => m.SENHA, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.Label("Confirmar senha", new { @class = "col-md-2 control-label", @id = "txtNovaSenha" })
+                    <div class="col-md-5">
+                        @Html.PasswordFor(m => m.ConfirmaSENHA, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" class="btn btn-primary btn-large" value="Salvar" />
+                    </div>
+                </div>
+            }
+        </section>
+    </div>
+
+</div>
+
+<script type="text/javascript">
+        $(document).ready(function () {
+            $('#Senha').bind('paste', function (e) {
+                e.preventDefault();
+                alert("Você não pode colar texto neste campo!");
+            });
+        });
+
+        $(document).ready(function () {
+            $('#confirmaSenha').bind('paste', function (e) {
+                e.preventDefault();
+                alert("Você não pode colar texto neste campo!");
+            });
+        });
+</script>

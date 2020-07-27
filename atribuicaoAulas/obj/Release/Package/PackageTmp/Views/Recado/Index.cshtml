@@ -1,0 +1,47 @@
+﻿@model List<atribuicaoAulas.Recado>
+
+<div class="panel panel-default ">
+    <!-- Topo -->
+    <div class="panel-heading">
+        <h2>Recados</h2>
+        <span class="tools pull-right">  </span>
+    </div>
+    <div class="panel-body">
+        <div class="col-lg-12 offset-0">
+            <!-- table responsive -->
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover table-striped sortable-theme-bootstrap table-link border0" data-sortable>
+                    <thead>
+                        <tr>
+                            <th>
+                                Recado
+                            </th>
+                            <th>
+                                Data Publicação
+                            </th>
+                            <th>
+                                CPF Criação
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.descrRecado)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.dtPublicacao)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CPFCriacao)
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

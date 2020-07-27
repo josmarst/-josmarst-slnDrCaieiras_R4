@@ -1,0 +1,179 @@
+﻿@model atribuicaoAulas.Recado
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    String usu = ((atribuicaoAulas.ACESSO)(Session["usuariologado"])).CPF;
+    var listaRecados = ViewBag.ListaRecados;
+
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="panel panel-default  col-lg-14">
+        <!-- Topo -->
+        <div class="panel-heading">
+            <h2>Recados</h2>
+            <span class="tools pull-right">  </span>
+        </div>
+        <div class="panel-body">
+            <div class="offset-0">
+                <!-- table responsive -->
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover table-striped sortable-theme-bootstrap table-link border0" data-sortable>
+                        <thead>
+                            <tr>
+                                <th>
+                                    <div class="form-group">
+                                        <h3>   @Html.Label("Data", htmlAttributes: new { @class = "control-label col-md-1" })</h3>
+                                        <div class="col-md-10">
+                                            @Html.TextBoxFor(m => m.dataRecado, null, new { @class = "form-control" })
+                                        </div>
+                                    </div>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <div class="form-group">
+                                        <h3>   @Html.Label("Endereço", htmlAttributes: new { @class = "control-label col-md-1" })</h3>
+                                        <div class="col-md-10">
+                                            @Html.TextBoxFor(m => m.EnderecoRecado, null, new { @class = "form-control" })
+                                        </div>
+                                    </div>
+                                </th>
+                            </tr>
+
+                            @Html.Hidden("Endereco")
+                            @Html.Hidden("data")
+
+                            <tr>
+                                <th>
+                                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                    <div class="form-group">
+                                        <h3>   @Html.Label("Recado", htmlAttributes: new { @class = "control-label col-md-1" })</h3>
+                                    <div class="col-md-10">
+                                            @Html.TextAreaFor(m => m.descrRecado, new { @class = "form-control", @maxlength = "600" })
+                                        </div>
+                                    </div>
+                                    @Html.HiddenFor(m => m.dtPublicacao, new { Value = System.DateTime.Now })
+                                    @Html.HiddenFor(m => m.CPFCriacao, new { Value = usu })
+                                    <br></br><br>
+                                    <div class="form-group">
+                                        <div class="col-md-offset-1 col-md-10">
+                                            <input type="submit" value="Salvar" class="btn btn-primary btn-large" />
+                                            @Html.ActionLink("Limpar", "Limpar", null, null, new { @class = "btn btn-primary btn-large" })
+                                        </div>
+                                    </div>
+                                </th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<div class="panel-body border-all col-lg-12">
+    <div class="col-lg-12 offset-0">
+        <!-- table responsive -->
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover table-striped sortable-theme-bootstrap table-link border0" data-sortable>
+                <thead>
+                    <tr>
+                        <th> Data Atribuição        </th>
+                        <th> Endereço Atribuição    </th>
+                        <th> Recado                 </th>
+                        <th> Data Publicação        </th>
+                        <th> CPF Criação            </th>
+                        <th>                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in listaRecados)
+                    {
+                        <tr>
+                            <td> @item.dataRecado       </td>
+                            <td> @item.EnderecoRecado   </td>
+                            <td> @item.descrRecado      </td>
+                            <td> @item.dtPublicacao     </td>
+                            <td> @item.CPFCriacao       </td>
+                            <td> <a href="#" onclick="ConfirmDelete(@item.IdRecado)">Excluir</a> </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <a href="#" class="close" data-dismiss="modal">&times;</a>
+                            <h3 class="modal-title">Excluir</h3>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Deseja excluir o registro? </h4>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="btn btn-default" data-dismiss="modal">Cancelar</a>
+                            <a href="#" class="btn btn-success" onclick="DeleteRegister()">Excluir</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="myModalErro">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <a href="#" class="close" data-dismiss="modal">&times;</a>
+                            <h3 class="modal-title">Erro de Exclusão!</h3>
+                        </div>
+                        <div class="modal-body">
+                            <h4>O registro não pôde ser excluído. Ocorreu um erro.  </h4>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="btn btn-warning" data-dismiss="modal">OK</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <input type="hidden" id="hiddenIdRecado" />
+        </div>
+    </div>
+</div>
+
+<script src="@Url.Content("~/Scripts/jquery-1.10.2.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.unobtrusive-ajax.js")" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="@Url.Content("~/Scripts/bootstrap.min.js")" type="text/javascript"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script>
+    var ConfirmDelete = function (idRecado) {
+        $("#hiddenIdRecado").val(idRecado);
+        $("#myModal").modal("show");
+    }
+
+    var DeleteRegister = function () {
+        var id = $("#hiddenIdRecado").val();
+        $.ajax({
+            type: "POST",
+            url: "/Recado/DeleteConfirmed",
+            data: { id: id },
+            dataType: "json",
+            success: function (result) {
+                if (result == false) {
+                    $("#myModal").modal("hide");
+                    $("#myModalErro").modal("show");
+                }
+                else {
+                    $("#myModal").modal("hide");
+                    window.location.href = "/Recado/Create";
+                }
+            }
+        });
+    }
+</script>

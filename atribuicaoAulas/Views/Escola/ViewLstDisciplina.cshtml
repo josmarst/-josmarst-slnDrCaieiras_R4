@@ -1,0 +1,105 @@
+﻿@model IEnumerable<atribuicaoAulas.aulasDisponiveis>
+@{
+	var viewBagNomeEscola = ViewBag.Escola.descrEscola;
+	var viewBagMunicipio = ViewBag.Escola.Municipio.descrMunicipio;
+}
+
+<h2>@viewBagNomeEscola - @viewBagMunicipio</h2>
+
+<table class="table" style="width:75%">
+	<tr>
+		<th> Disciplina             </th>
+		<th> Turno                  </th>
+		<th> Tipo de Aula           </th>
+		<th> Afastamento            </th>
+		<th> Período de Afastamento </th>
+		<th> Qtde de Aulas          </th>
+		<th> Horário				</th>
+	</tr>
+
+	@foreach (var item in Model)
+	{
+		<tr>
+			@switch (item.idDisciplina)
+			{
+				case 1:
+					<td>Ciências        </td> ; break;
+				case 2:
+					<td>Classe Comum    </td> ; break;
+				case 3:
+					<td>Educação Física </td> ; break;
+				case 4:
+					<td>Filosofia       </td> ; break;
+				case 5:
+					<td>Física          </td> ; break;
+				case 6:
+					<td>Geografia       </td> ; break;
+				case 7:
+					<td>História        </td> ; break;
+				case 8:
+					<td>Inglês          </td> ; break;
+				case 9:
+					<td>Lingua Portuguesa</td> ; break;
+				case 10:
+					<td>Matemática      </td> ; break;
+				case 11:
+					<td>Química         </td> ; break;
+				case 12:
+					<td>Artes           </td>; break;
+			}
+			@switch (item.idTurno)
+			{
+				case 1:
+					<td>Manhã    </td> ; break;
+				case 2:
+					<td>Tarde    </td> ; break;
+				case 3:
+					<td>Noite    </td>; break;
+			}
+			@switch (item.idTipoAula)
+			{
+				case 1:
+					<td>Substituição </td> ; break;
+				case 2:
+					<td>Livres       </td> ; break;
+				case 3:
+					<td>Adicional    </td>; break;
+			}
+			@switch (item.idAfastamento)
+			{
+				case 1:
+					<td>Licença Prêmio               </td> ; break;
+				case 2:
+					<td>Licença Saúde                </td> ; break;
+				case 3:
+					<td>Licença Gestante             </td> ; break;
+				case 4:
+					<td>Livres                       </td> ; break;
+				case 5:
+					<td>Substituição Diretor         </td> ; break;
+				case 6:
+					<td>Outros                       </td> ; break;
+				case 7:
+					<td>60 dias inicialmente         </td> ; break;
+				case 8:
+					<td>Substituição Vice Diretor    </td>; break;
+			}
+			<td>@Html.DisplayFor(modelItem => item.PeriodoAfastamento)  </td>
+			@*<td> @Html.ActionLink(item.qtdeAulas.ToString(), "Edit", new { id = item.IdAulasDisponiveis })   </td>*@
+
+
+			<td>@Html.DisplayFor(modelItem => item.qtdeAulas)  </td>
+			<td>@Html.DisplayFor(modelItem => item.Horario)  </td>
+
+
+		</tr>
+	}
+</table>
+
+
+
+
+
+
+
+

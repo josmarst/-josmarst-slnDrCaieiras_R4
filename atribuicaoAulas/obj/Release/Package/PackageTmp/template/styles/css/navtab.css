@@ -1,0 +1,111 @@
+/* navtabs    */
+
+
+
+.tabnav1 ul>li>a {
+    display:block;
+    margin-bottom: 1px;
+}
+.tabnav1 {
+    background:#fff !important;
+    border-radius:5px 5px 0 0;
+    -webkit-border-radius:5px 5px 0 0;
+    border-bottom:none;
+    padding: 0px;
+}
+
+ .tabnav1 li a:hover, .tabnav1 li.active a {
+    border-radius: 0 !important;
+    background: #da7917 !important;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+/*.tabnav1 li.active a:after {
+    position: absolute; 
+    padding-left:2px; 
+    content: "\00bb"; 
+}*/
+
+
+.tabnav1 li.active a:after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-top-color: #da7917;
+    border-width: 7px;
+    margin-left: -7px;
+    z-index: 1000;
+}
+
+.tabnav1 li a {
+    border-radius: 0 !important;
+    background: #ececec !important;
+    color: #6f6f6f !important;
+    font-weight: bold;
+}
+
+.panel-body.tabs-body-shadow {
+    background-color: #f9f9f9;
+    -moz-box-shadow:    inset 0px 1px 6px #ccc;
+   -webkit-box-shadow: inset 0px 1px 6px #ccc;
+   box-shadow: inset 0px 1px 6px #ccc;
+}
+
+.tab-content>.tab-pane.active { 
+    margin-top: 7px;
+}
+
+
+
+.tabnav1 .nav-tabs>li>a {
+    margin-right: 1px; 
+}
+.panel-heading .nav>li>a,.panel-heading .nav>li.active>a,.panel-heading .nav>li.active>a:hover,.panel-heading .nav>li.active>a:focus {
+    border-width:0;
+    border-radius:0;
+}
+.panel-heading .nav>li>a {
+  text-transform: uppercase;
+}
+.panel-heading .nav>li.active>a,.panel-heading .nav>li>a:hover {
+    color:#f78b1e;
+    background:#fff;
+}
+.panel-heading .nav>li:first-child.active>a,.panel-heading .nav>li:first-child>a:hover {
+    border-radius:0px 0 0 0 !important;
+    -webkit-border-radius:0px 0 0 0 !important;
+}
+.tab-right {
+    height:58px;
+}
+.panel-heading.tab-right .nav>li:first-child.active>a,.tab-right.panel-heading .nav>li:first-child>a:hover {
+    border-radius:0;
+    -webkit-border-radius:0;
+}
+.panel-heading.tab-right .nav>li:last-child.active>a,.tab-right.panel-heading .nav>li:last-child>a:hover {
+    border-radius:0 4px 0 0;
+    -webkit-border-radius:0 4px 0 0;
+}
+.panel-heading.tab-right .nav-tabs>li>a {
+    margin-left:1px;
+    margin-right:0px;
+}
+.m-bot20 {
+    margin-bottom:20px;
+}
+.m-bot-none {
+    margin-bottom:0;
+}
+.wht-color {
+    color:#fff;
+}
+.close-sm {
+    font-size: 14px;
+}

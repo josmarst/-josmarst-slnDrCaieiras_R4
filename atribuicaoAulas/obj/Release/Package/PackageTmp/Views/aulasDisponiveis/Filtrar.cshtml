@@ -1,0 +1,298 @@
+﻿@using atribuicaoAulas.Models
+@model List<atribuicaoAulas.AULASDISPONIVEIS>
+@{
+    var bloqueio = ViewBag.BloqueioCadastroAula;
+    var NomeEscola = ViewBag.NomeEscola;
+    var descrTurno = ViewBag.descrTurno;
+    var descrTipoAula = ViewBag.descrTipoAula;
+    var descrDisciplina = ViewBag.descrDisciplina;
+    var descrAfastamento = ViewBag.descrAfastamento;
+    var MotivoExclusao = ViewBag.MotivoExclusao;
+}
+
+@if (Model.Count() > 0)
+{
+    <!-- RESULTADO DO Filtro -->
+    <div class="panel-body">
+        <div class="col-lg-12 offset-0">
+            <!-- table responsive -->
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover table-striped sortable-theme-bootstrap table-link border0" data-sortable>
+                    <thead>
+                        <tr>
+                            <th>
+                                <input id="ckTodasAulas" class="ckTodasAulas" name="nome" type="checkbox"> Todas
+                            </th>
+                            <th>Escola				</th>
+                            <th>Disciplina			</th>
+                            <th>Turno				</th>
+                            <th>Tipo de Aula        </th>
+                            <th>Afastamento			</th>
+                            <th>Período Afastamento	</th>
+                            <th>Qtde de Aulas       </th>
+                            <th>Turma               </th>
+                            @if (((atribuicaoAulas.ACESSO)(Session["usuarioLogado"])).IDPERFIL == 1)  //  Admin
+                            {
+                                <th>Data Cadastro   </th>
+                                <th>CPF Cadastro   </th>
+                            }
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @for (int i = 0; i < Model.Count; i++)
+                        {
+                            <tr>
+                                <td>
+                                    <input id="ckAulass" class="ckAulass" name="nome" type="checkbox" value="@Model[i].IDAULASDISPONIVEIS">
+                                </td>
+                                <td> @ViewBag.NomeEscola[i]          </td>
+                                <td> @ViewBag.descrDisciplina[i]     </td>
+                                <td> @ViewBag.descrTurno[i]          </td>
+                                <td> @ViewBag.descrTipoAula[i]       </td>
+                                <td> @ViewBag.descrAfastamento[i]    </td>
+                                <td> @Model[i].PERIODOAFASTAMENTO  </td>
+                                <td> @Model[i].QTDEAULAS         </td>
+                                <td> @Model[i].TURMA             </td>
+
+                                @if (Session["usuarioLogado"] != null)
+                                {
+                                    if (((atribuicaoAulas.ACESSO)(Session["usuarioLogado"])).IDPERFIL == 1)  //  Admin
+                                    {
+                                        <td> @Model[i].DTCADASTRO             </td>
+                                        <td> @Model[i].CPFCADASTRO             </td>
+                                        <td>
+                                            @Html.ActionLink("Editar", "Edit", new { id = Model[i].IDAULASDISPONIVEIS })
+                                            @*<a href="#" onclick="ConfirmDelete(@Model[i].IDAULASDISPONIVEIS)">Excluir</a>*@
+                                        </td>
+                                    }
+                                    else
+                                    {
+                                        if (bloqueio == "Desbloqueado")
+                                        {
+                                            <td>
+                                                @Html.ActionLink("Editar", "Edit", new { id = Model[i].IDAULASDISPONIVEIS })
+                                                @*<a href="#" onclick="ConfirmDelete(@Model[i].IDAULASDISPONIVEIS)">Excluir</a>*@
+                                            </td>
+                                        }
+                                    }
+                                    var myModal = Model[i].IDAULASDISPONIVEIS;
+                                }
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+
+                <div class="line3"></div>
+                <table style="width:100%">
+                    @if (((atribuicaoAulas.ACESSO)(Session["usuarioLogado"])).IDPERFIL == 1 || ((atribuicaoAulas.ACESSO)(Session["usuarioLogado"])).IDPERFIL == 3)  //  Admin
+                {
+                        <tr>
+                            <td style="width:5%">@Html.ActionLink("Atribuir", null, null, null, new { @class = "btn btn-primary btn-large", @onclick = "formShow(); return false;" })    </td>&nbsp;&nbsp;
+                            <td style="width:10%">@Html.ActionLink("Exportar Excel", "ExportExcelAulasDisponiveis", "aulasDisponiveis", null, new { @class = "btn btn-primary btn-large" }) </td>&nbsp; &nbsp;
+                            <td style="width:85%" align="right">@Html.ActionLink("Excluir Selecionados", null, null, null, new { @class = "btn btn-danger  mobilebtn", @onclick = "ConfirmaExcluirSelecionados(); return false;" })    </td>&nbsp;&nbsp;
+
+                        </tr>
+                    }
+                    else
+                    {
+                        <tr>
+                            <td style="width:5%">@Html.ActionLink("Atribuir", null, null, null, new { @class = "btn btn-primary btn-large", @readonly = "readonly", @onclick = "formShow(); return false;" })    </td>&nbsp;&nbsp;
+                            <td style="width:10%">@Html.ActionLink("Exportar Excel", "ExportExcelAulasDisponiveis", "aulasDisponiveis", null, new { @class = "btn btn-primary btn-large" }) </td>&nbsp; &nbsp;
+                            <td style="width:85%" align="right">@Html.ActionLink("Excluir Selecionados", null, null, null, new { @class = "btn btn-danger  mobilebtn", @onclick = "ConfirmaExcluirSelecionados(); return false;" })    </td>&nbsp;&nbsp;
+
+                        </tr>
+                    }
+                </table>
+                <div class="modal fade" id="myModall">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <a href="#" class="close" data-dismiss="modal">&times;</a>
+                                <h3 class="modal-title">Excluir</h3>
+                            </div>
+                            <div class="modal-body">
+                                <h4>Deseja excluir o registro? </h4>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="btn btn-default" data-dismiss="modal">Cancelar</a>
+                                <a href="#" class="btn btn-success" onclick="DeleteRegister()">Excluir</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModalMotivoExclusao">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <a href="#" class="close" data-dismiss="modal">&times;</a>
+                                <h3 class="modal-title">Motivo da Exclusão</h3>
+                            </div>
+                            @Html.LabelForModel("Motivo", htmlAttributes: new { @class = "control-label col-md-1", @strong = "true" })
+                            <div class="col-md-5">
+                                @Html.DropDownList("idMotivoExclusao", (SelectList)ViewBag.MotivoExclusao, "--  Selecione  --", new { @class = "form-control" }) 
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="btn btn-default" data-dismiss="modal">Cancelar</a>
+                                <a href="#" class="btn btn-success" onclick="ExcluirSelecionados(); return false;">Excluir</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <input type="hidden" id="hiddenIdAulasDisponiveis" />
+            </div>
+        </div>
+    </div>
+    <!-- FIM RESULTADO DO Filtro -->
+
+    <!--ATRIBUICAO DE AULAS-->
+    <div id="attribuicao" hidden="hidden">
+        <div class="row">
+            <div class="col-lg-12">
+                <form id="formBusca">
+                    <div class="panel panel-default ">
+                        <div class="panel-body">
+                            <div class="col-lg-12">
+                                <div class="margtop10 right_mobile margbottom10 radio radiomargin0">      </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="line3"></div>
+                            <div class="col-md-6 offset-0 ">
+                                <div class="col-md-6 col-xs-12 col-lg-6 col-sm-6 margbottom10">
+                                    <label for="">Nome </label>
+                                    <input type="text" name="Nome" placeholder="Nome" class="form-control date" id="txtNome">
+                                </div>
+                                <div class="col-md-6 col-xs-12 col-lg-6 col-sm-6 margbottom10">
+                                    <label for="cpf">CPF </label>
+                                    <input type="text" name="CPF" placeholder="CPF Somente números" class="form-control somenteNumero" id="txtCPF" maxlength="11">
+                                </div>
+                            </div>
+                            <div class="col-md-6 offset-0 ">
+                                <div class="col-md-6 col-xs-12 col-lg-6 col-sm-6 margbottom10">
+                                    <label for="documento">Fone</label>
+                                    <input type="text" name="Fone" placeholder="Fone Somente números" class="form-control somenteNumero" id="txtFone" maxlength="12" onkeypress="mascaraTelefone(this)">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="col-md-10">
+                                @Html.ActionLink("Salvar", null, null, new { onclick = "Salvar(); return false;", @class = "btn btn-primary btn-large" })
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-md-12 margtop10" id="divMsg">
+            </div>
+        </div>
+    </div>
+    <!--FIM DE ATRIBUICAO DE AULAS-->
+}
+else
+{
+    <div class="alert alert-block alert-danger fade in">
+        <button data-dismiss="alert" class="close close-sm" type="button">
+            <i class="fa fa-times"></i>
+        </button>
+        <span class="bold"> Nenhum registro encontrado. </span>
+    </div>
+}
+
+
+<script>
+    var arrAulas = new Array();
+
+    $('.ckTodasAulas').click(function () {
+        $('input:checkbox').prop('checked', this.checked);
+    });
+
+    function ConfirmaExcluirSelecionados() {
+        arrAulas.length = 0;
+        $('input.ckAulass:checkbox:checked').each(function () { arrAulas.push(this.value); });
+
+        if (arrAulas.length == 0) {
+            alert("Selecione ao menos um item.");
+            return;
+        }
+        $("#myModalMotivoExclusao").modal('show');
+    }
+
+    function ExcluirSelecionados() {
+        if ($("#idMotivoExclusao").val() == "") {
+            alert("Selecione um motivo para a exclusão.");
+            return;
+        }
+
+        var idMotivoExclusao = $("#idMotivoExclusao").val();
+
+        $.ajax({
+            type: "POST",
+            url: "/aulasDisponiveis/ExcluirSelecionados",
+            data: { arrAulas: arrAulas, idMotivoExclusao: idMotivoExclusao },
+            dataType: "json",
+            success: function (result) {
+                alert("Operação realizada com sucesso!");
+                window.location.href = "/aulasDisponiveis/Index";
+            }
+        });
+    }
+
+    function formShow() {
+        $('input.ckAulass:checkbox:checked').each(function () {
+            arrAulas.push(this.value);
+        });
+
+        if (arrAulas.length == 0) { alert("Selecione ao menos uma aula!"); }
+        else { $("#attribuicao").show(); }
+    }
+
+    function Salvar() {
+        arrAulas.length = 0;
+        var Nome = $("#txtNome").val();
+        var CPF = $("#txtCPF").val();
+        var Telefone = $("#txtFone").val();
+
+        if (Nome == "") { alert("Preencha o campo Nome."); return; }
+        if (CPF == "") { alert("Preencha o campo CPF."); return; }
+        if (Telefone == "") { alert("Preencha o campo Telefone."); return; }
+
+        if (!validarCPF(CPF)) { alert("CPF inválido!"); return; }
+
+        $('input.ckAulass:checkbox:checked').each(function () { arrAulas.push(this.value); });
+
+        $.ajax({
+            type: "POST",
+            url: "/aulasDisponiveis/Salvar",
+            data: { Nome: Nome, CPF: CPF, Telefone: Telefone, arrAulas: arrAulas },
+            dataType: "json",
+            success: function (result) {
+                alert("Operação realizada com sucesso!");
+                window.location.href = "/aulasDisponiveis/Index";
+                ImprimirComprovante(Nome, CPF, Telefone, arrAulas);
+            }
+        });
+    }
+
+    function ImprimirComprovante(Nome, CPF, Telefone, arrAulas) {
+        $.ajax({
+            type: "POST",
+            url: "/aulasDisponiveis/ImprimirComprovante",
+            data: { Nome: Nome, CPF: CPF, Telefone: Telefone, arrAulas: arrAulas },
+            dataType: "json",
+            success: function (result) {
+                window.location.href = "/aulasDisponiveis/ImprimirFolhaComprovante?dados=" + Nome + ";" + CPF + ";" + Telefone + ";" + arrAulas + "";
+            }
+        });
+    }
+
+    $(document).ready(function () {
+        $(".somenteNumero").bind("keyup blur focus", function (e) {
+            e.preventDefault();
+            var expre = /[^\d\s]/g;
+            $(this).val($(this).val().replace(expre, ''));
+        });
+    });
+
+</script>

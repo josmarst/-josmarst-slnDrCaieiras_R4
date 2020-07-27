@@ -1,0 +1,134 @@
+﻿@using atribuicaoAulas.Models
+@model List<atribuicaoAulas.AulasAtribuidas>
+@{
+  var lstAulasDisponiveis = ViewBag.lstAulasDisponiveis;
+    var lstEscolas = ViewBag.lsEscolas;
+    var lstDisciplinas = ViewBag.lsDisciplinas;
+    var lstTipoAulas = ViewBag.lsTipoAulas;
+    var lsDataCadastro = ViewBag.lsDataCadastro;
+
+    var CPF = ViewBag.CPF;
+    var IDDISCIPLINA = ViewBag.IDDISCIPLINA;
+    var IDESCOLA = ViewBag.IDESCOLA;
+}
+@Html.Raw(TempData["msg"])
+
+@if (Model != null)
+{
+    if (Model.Count > 0)
+    {
+        <div id="tabela">
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover table-striped sortable-theme-bootstrap table-link border0" data-sortable>
+                    <thead>
+						<tr>
+							<th>
+								<input id="ckTodasAtribuidas" class="ckTodasAtribuidas" name="nome" type="checkbox"> Todas
+							</th>
+							<th> Nome			</th>
+							<th> CPF			</th>
+							<th> Telefone		</th>
+							<th> Escola			</th>
+							<th> Disciplina		</th>
+							<th> Turno			</th>
+							<th> Tipo de Aula   </th>
+							<th> Qtde de Aulas  </th>
+							<th> Turma          </th>
+							<th> Data Cadastro  </th>
+							<th> Data Atribuição  </th>
+							<th> Imprimir       </th>
+						</tr>
+                    </thead>
+                    <tbody>
+                        @for (int i = 0; i < Model.Count(); i++)
+                        {
+						<tr>
+							<td>
+								<input id="ckAtribuidas" class="ckAtribuidas" name="nome" type="checkbox" value="@Model[i].IdAulaAtribuida">
+							</td>
+							<td> @Model[i].NomeProfessor            </td>
+							<td> @Model[i].CPF                      </td>
+							<td> @Model[i].TELEFONE                 </td>
+							<td> @lstEscolas[i]                     </td>
+							<td> @lstDisciplinas[i]                 </td>
+							<td> @(lstAulasDisponiveis[i].IDTURNO == 1 ? "Manhã" : lstAulasDisponiveis[i].IDTURNO == 2 ? "Tarde" : "Noite") </td>
+							<td> @lstTipoAulas[i]                   </td>
+							<td> @lstAulasDisponiveis[i].QTDEAULAS  </td>
+							<td> @lstAulasDisponiveis[i].TURMA      </td>
+							<td> @lsDataCadastro[i]					</td>
+							<td> @Model[i].DTATRIBUICAO					</td>
+							<td> @Html.ActionLink("Imprimir", "ImprimirFolhaComprovanteDados", "aulasDisponiveis", new { dados = Model[i].NomeProfessor + ";" + Model[i].CPF + ";" + Model[i].TELEFONE + ";" + Model[i].IDAULASDISPONIVEIS + ";" + lsDataCadastro[i] }, null)      </td>
+						</tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+        <div>
+            @Html.ActionLink("Exportar para Excel", "ExportExcelAulasAtribuidas", "aulasDisponiveis", new { CPF = ViewBag.CPF, IDDISCIPLINA = ViewBag.IDDISCIPLINA, IDESCOLA = ViewBag.IDESCOLA }, new { @class = "btn btn-primary btn-large" })
+            <td>@Html.ActionLink("Cancelar Atribuição Selecionada", null, null, null, new { @class = "btn btn-danger  mobilebtn", @onclick = "ConfirmaCancelarSelecionados(); return false;" })    </td>&nbsp;&nbsp;
+        </div>
+
+        <div class="modal fade" id="myModalConfirmaCancelarSelecionados">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <a href="#" class="close" data-dismiss="modal">&times;</a>
+                        <h3 class="modal-title">Cancelar Atribuiçao</h3>
+                    </div>
+                    <div class="modal-body">
+                        <h4>Deseja cancelar a(s) atribuição(ões)? </h4>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#" class="btn btn-default" data-dismiss="modal">Sair</a>
+                        <a href="#" class="btn btn-success" onclick="CancelSelecionados()">Cancelar Atribuição</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    }
+    else
+    {
+        <div class="alert alert-block alert-danger fade in">
+            <button data-dismiss="alert" class="close close-sm" type="button">
+                <i class="fa fa-times"></i>
+            </button>
+            <span class="bold"> Nenhum registro encontrado. </span>
+        </div>
+    }
+}
+
+<script>
+    var arrAtribuidas = new Array();
+
+    $('.ckTodasAtribuidas').click(function () {
+        $('input:checkbox').prop('checked', this.checked);
+    });
+
+    function ConfirmaCancelarSelecionados() {
+        $('input.ckAtribuidas:checkbox:checked').each(function () { arrAtribuidas.push(this.value); });
+      
+        if (arrAtribuidas.length == 0) { alert("Selecione ao menos um aula!"); return; }
+
+        $("#myModalConfirmaCancelarSelecionados").modal('show');
+    }
+
+    function CancelSelecionados() {
+        arrAtribuidas.length = 0;
+        $('input.ckAtribuidas:checkbox:checked').each(function () { arrAtribuidas.push(this.value); });
+
+        $.ajax({
+            type: "POST",
+            url: "/aulasDisponiveis/CancelarAtribuicao",
+            data: { arrAtribuidas: arrAtribuidas },
+            dataType: "json",
+            success: function (result) {
+                alert("Operação realizada com sucesso!");
+                window.location.href = "/aulasDisponiveis/relAulasAtribuidas";
+            }
+        });
+    }
+
+</script>

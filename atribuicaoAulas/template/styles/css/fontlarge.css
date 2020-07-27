@@ -1,0 +1,39 @@
+
+
+/* font Large */
+
+/* font size 16px ( diminuir para 14px) */
+body , .badge, .dropdown-menu, .dropdown-menu.inbox li a .subject .from , .panel-default>.panel-heading { font-size: 14px; } 
+body{ font-weight: 300;}   
+ 
+/*font size 14 (diminuir para 12) */
+
+ul.sidebar-menu li a , .canal, .tools a , .titulo_form , .user_info , .notification-sender , .collapsebtn2 ,  .textinfo , a.theme-link  i{ font-size: 14px; }
+
+/*font size 12 (diminuir para 11) */ 
+
+ul.sidebar-menu li ul.sub li a, .dropdown-menu.inbox li a  .message  , .notification-info p , .top-nav .username , .dropdown-menu.inbox li a .subject .time, legend   { font-size: 14px; }    
+
+
+/* padding e margins */ 
+ul.sidebar-menu li a { padding: 15px 0 16px 15px;} /*menor padding: 15px 0 15px 15px;*/ 
+.notify-row .badge {
+    top: -12px;
+} 
+.form-control, .input-group .form-control, .input-group-btn>.btn {
+    height: 30px;    
+    font-size: 14px;   
+    }
+ 
+.btn, .radio_mobile span { font-size: 14px; }     
+
+.btn-group button, .btn-group .btn {
+    padding: 4px 4px;
+}
+/* Heading Geral */ 
+.h1 , h1 {font-size: 36px;} 
+.h2 , h2 { font-size: 30px; }
+.h3 , h3 {  font-size: 24px;}
+.h4 , h4 { font-size: 18px; }
+.h5 , h5 {  font-size: 14px;} 
+.h6 , h6 { font-size: 12px; }

@@ -1,0 +1,22 @@
+
+
+/* font Large */
+
+/* font size 16px ( diminuir para 14px) */
+body , .badge, .dropdown-menu, .dropdown-menu.inbox li a .subject .from , .panel-default>.panel-heading , .h1, h1{ font-size: 18px; } 
+body{ font-weight: normal;} 
+ 
+/*font size 14 (diminuir para 12) */
+
+ul.sidebar-menu li a , .canal, .tools a , .btn , .titulo_form , .form-control, .user_info , .notification-sender , .collapsebtn2 , .h2, h2 , .h3, h3 , .textinfo{ font-size: 16px; }
+
+/*font size 12 (diminuir para 11) */ 
+
+ul.sidebar-menu li ul.sub li a, .dropdown-menu.inbox li a  .message  , .notification-info p , .top-nav .username , .dropdown-menu.inbox li a .subject .time ,  .h5, h5 , .h6, h6  { font-size: 14px; }   
+
+
+/* padding e margins */ 
+ul.sidebar-menu li a { padding: 20px 0 20px 15px;} /*menor padding: 15px 0 15px 15px;*/
+.notify-row .badge {
+    top: -14px;
+}

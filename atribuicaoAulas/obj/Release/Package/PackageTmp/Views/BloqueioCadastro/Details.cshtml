@@ -1,0 +1,43 @@
+﻿@model atribuicaoAulas.BloqueioCadastro
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>BloqueioCadastro</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.bloqueado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.bloqueado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.databloqueio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.databloqueio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPFBloqueio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPFBloqueio)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.idBloqueioCadastro }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

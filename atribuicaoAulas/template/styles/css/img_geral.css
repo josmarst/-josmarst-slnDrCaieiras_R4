@@ -1,0 +1,109 @@
+/*  todas as classes que contem imagens */
+
+/* Login */
+
+.login-body {
+  background: #0369b5  no-repeat top center;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* menu */
+.dcjq-icon {
+  height: 17px;
+  width: 17px;
+  display: inline-block;
+  background: url(../../resources/img/nav-expand.png) no-repeat top;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  position: absolute;
+  right: 10px;
+}
+
+.active .dcjq-icon {
+  background: url(../../resources/img/nav-expand.png) no-repeat bottom;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+.terceiro_nivel .dcjq-icon {
+  height: 17px;
+  width: 17px;
+  display: inline-block;
+  background: url(../../resources/img/nav-expand-3.png) no-repeat top;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  position: absolute;
+  right: 10px;
+}
+
+.terceiro_nivel.active .dcjq-icon {
+  background: url(../../resources/img/nav-expand-3.png) no-repeat bottom;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+.dcjq-icon-desc {
+  height: 17px;
+  width: 17px;
+  display: inline-block;
+  background: url(../../resources/img/nav-expand-desc.png) no-repeat top; 
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  position: absolute;
+  right: 10px;
+}
+
+
+
+.right-side-accordion .dcjq-icon {
+  height: 17px;
+  width: 17px;
+  display: inline-block;
+  background: url(../../resources/img/acc-expand.png) no-repeat top;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  position: absolute;
+  right: 10px;
+}
+
+.right-side-accordion .active .dcjq-icon {
+  background: url(../../resources/img/acc-expand.png) no-repeat bottom;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+/* formularios */
+
+.ms-container {
+  /*background: transparent url('../../resources/img/switch.png') no-repeat 50% 50%;*/
+  width: 100%;
+}
+
+
+
+/* tabelas 
+
+.sorting {
+  background: url('../../resources/img/sort_both.png') no-repeat center right;
+  cursor: pointer;
+}
+
+.sorting_asc {
+  background: url('../../resources/img/sort_asc.png') no-repeat center right;
+  cursor: pointer;
+}
+
+.sorting_desc {
+  background: url('../../resources/img/sorting_desc.png') no-repeat center right;
+  cursor: pointer;
+}*/

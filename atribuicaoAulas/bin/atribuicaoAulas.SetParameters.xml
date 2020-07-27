@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="AtribuicaoDECaieiras" />
+  <setParameter name="Acesso-Web.config Connection String" value="" />
+  <setParameter name="aulasDisponiveis-Web.config Connection String" value="" />
+  <setParameter name="DefaultConnection-Web.config Connection String" value="" />
+  <setParameter name="ModelDB-Web.config Connection String" value="" />
+  <setParameter name="Perfil-Web.config Connection String" value="" />
+  <setParameter name="PerfilDB_-Web.config Connection String" value="data source=den1.mssql8.gear.host;initial catalog=perfil;persist security info=True;user id=perfil;password=Vx9KVMM2!?B2;multipleactiveresultsets=True;application name=EntityFramework" />
+</parameters>

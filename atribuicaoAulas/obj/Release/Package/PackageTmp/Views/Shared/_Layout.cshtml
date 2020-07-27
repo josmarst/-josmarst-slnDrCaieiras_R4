@@ -1,0 +1,358 @@
+﻿@{
+    var recado = ViewBag.ultimoRecado;
+}
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<title>Atribuições</title>
+	<!-- Bootstrap -->
+	<link href="~/template/styles/css/bootstrap.min.css" rel="stylesheet" />
+	<!-- Icones Fonts -->
+	<link href="~/template/styles/css/font-awesome.css" rel="stylesheet" type="text/css" />
+	<!-- Fonts -->
+	<link href="~/template/styles/css/font_roboto.css" rel="stylesheet" type="text/css" />
+	<!-- Custom CSS -->
+	<link href="~/template/styles/css/custom_admin.css" rel="stylesheet" />
+	<!--  Css Separados  -->
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+	<link href="~/template/styles/css/topo.css" rel="stylesheet" />
+	<link href="~/template/styles/css/menu_esquerdo.css" rel="stylesheet" />
+	<link href="~/template/styles/css/formulario.css" rel="stylesheet" />
+	<link href="~/template/styles/css/tabelas.css" rel="stylesheet" />
+	<link href="~/template/styles/css/img_geral.css" rel="stylesheet" />
+	<link href="~/template/styles/css/modal.css" rel="stylesheet" />
+	<link href="~/template/styles/css/botoes.css" rel="stylesheet" />
+	<link href="~/template/styles/css/profile.css" rel="stylesheet" />
+	<link href="~/template/styles/css/sets.css" rel="stylesheet" />
+	<link href="~/template/styles/css/medias.css" rel="stylesheet" />
+	<link href="~/template/styles/css/fontnormal.css" class="font" rel="stylesheet" />
+	@Scripts.Render("~/Scripts/jquery-1.8.2.min.js")
+
+	<link href="~/template/styles/css/plugins/jquery.gritter.css" rel="stylesheet" />
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="~/template/https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="~/template/https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	@*
+		<script src="~/template/externo_lib/ckeditor/ckeditor.js"></script>*@
+	@RenderSection("PageStyle", false)
+
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140446285-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-140446285-1');
+	</script>
+
+
+</head>
+<body>
+    <section id="container">
+        <header class="header fixed-top clearfix" id="header_top" style="height:auto">
+            <div class="brand">
+
+                <div class="top-nav clearfix">
+                    <p>&reg;  @DateTime.Now.Year - Cedido a<br />R.Oliveira - Assistência Técnica.</p>
+                </div>
+                <div class="sidebar-toggle-box">
+                    <div class="fa fa-bars" title="Minimizar/Maximizar Menu"></div>
+                </div>
+            </div>
+            <div class="text-center" id="top_menu">
+                <ul class="text-center">
+                    <li>
+                            <a title="Diretoria de Ensino - Região de Caieiras"><img src="~/template/resources/img/Banner atribuição.jpg" alt="Delegacia de Ensino - Região de Caieiras" style="max-width:90%"></a>
+                        </li>
+                </ul>
+            </div>
+            <div class="top-nav clearfix">
+                <ul class="nav pull-right top-menu">
+                    <li class="dropdown">
+                        <span class="username hidden-inline-xs">
+                            @if (Session["usuariologado"] != null)
+                            {
+                                <span>
+                                    <a href="/Account/Sair" style="visibility:visible" title="Sair" class="btn orangebtn mobilebtn margright5"><i class='fa fa-window-close'></i>&nbsp;&nbsp;&nbsp;Sair</a>
+                                </span>
+                            } @*<button type="button" class="close closeModalEmail" data-dismiss="modal"> <i class='fa fa-window-close'></i> </button>*@
+                        </span>
+                    </li>
+
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#" title="Usuário logado">
+                            <img alt="" src="~/template/resources/img/avatar1_small2.jpg" alt="Foto do Usuário">
+                            <span class="username hidden-inline-xs">
+                                @if (Session["usuariologado"] != null)
+                                {
+                                    String NomeUsu = ((atribuicaoAulas.ACESSO)(Session["usuariologado"])).NOME;
+                                    <span class="username hidden-inline-xs">
+                                        Olá @NomeUsu !
+                                    </span>
+                                }
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <hr /><hr /><hr />
+        <aside>
+            <div id="sidebar" class="nav-collapse navbar-inverse">
+                <div class="leftside-navigation" tabindex="">
+                    <ul class="sidebar-menu" id="nav-accordion">
+                        <li class="sub-menu dcjq-parent-li">
+                            <a href="/aulasDisponiveis/aulasDisponiveisAgrupadas" style="visibility:visible" title="Aulas Disponíveis" class="dcjq-parent">
+                                <i class="fas fa-chalkboard-teacher" aria-hidden="true"></i>
+                                <span>SALDO DE AULAS</span>
+                            </a>
+                        </li>
+                        <li class="sub-menu dcjq-parent-li">
+                            <a href="/Escola/Index" title="Escolas" class="dcjq-parent">
+                                <i class="fas fa-school"></i>
+                                <span>ESCOLAS</span>
+                            </a>
+                        </li>
+                        <li class="sub-menu dcjq-parent-li">
+                            <a href="/Municipio/Index" title="Municípios" class="dcjq-parent">
+                                <i class="fa fa-road"></i>
+                                <span>MUNICÍPIOS</span>
+                            </a>
+                        </li>
+                        <li class="sub-menu dcjq-parent-li">
+                            <a href="/Account/Login" title="Login" class="dcjq-parent">
+                                <i class="fa fa-user"></i>
+                                <span>LOGIN</span>
+                            </a>
+                        </li>
+                        @if (Session["usuarioLogado"] != null)
+                        {
+                            if (((atribuicaoAulas.ACESSO)(Session["usuarioLogado"])).IDPERFIL == 1)  //admin
+                            {
+                                <li class="sub-menu dcjq-parent-li">
+                                    <a data-toggle="collapse" data-target="#collapseOne">
+                                        <i class="fa fa-users"></i>
+                                        <span>USUÁRIOS</span>
+                                    </a>
+                                    <ul id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                        <li>
+                                            <a href="/Account/Register"><i class="dcjq-parent"></i>Cadastrar</a>
+                                        </li>
+                                        <li>
+                                            <a href="/Account/Pesquisar"><i class="dcjq-parent"></i>Pesquisar</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu dcjq-parent-li">
+                                    <a href="/Disciplina/Index" title="Disciplinas" class="dcjq-parent">
+                                        <i class="far fa-clone"></i>
+                                        <span>DISCIPLINAS</span>
+                                    </a>
+                                </li>
+                                <li class="sub-menu dcjq-parent-li">
+                                    <a href="#" style="visibility:visible" title="Cadastro de Aulas" class="dcjq-parent">
+                                        <i class="fas fa-arrow-right"></i>
+                                        <span>CADASTRO DE AULAS</span>
+                                    </a>
+                                    <ul id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                        <li>
+                                            <a href="/aulasDisponiveis/Index"><i class="dcjq-parent"></i>AULAS DISPONÍVEIS</a>
+                                        </li>
+                                    </ul>
+                                    <ul id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                        <li>
+                                            <a href="/aulasDisponiveis/Create"><i class="dcjq-parent"></i>CADASTRAR NOVA</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu dcjq-parent-li">
+                                    <a data-toggle="collapse" data-target="#collapseOne">
+                                        <i class="fa fa-file-text"></i>
+                                        <span>RELATÓRIOS</span>
+                                    </a>
+                                    <ul id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                        <li>
+                                            <a href="/aulasDisponiveis/relAulasAtribuidas"><i class="dcjq-parent"></i>AULAS ATRIBUíDAS</a>
+                                        </li>
+                                    </ul>
+                                    <ul id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                        <li>
+                                            <a href="/aulasDisponiveis/relAulasExcluidas"><i class="dcjq-parent"></i>AULAS EXCLUÍDAS</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="collapse show">
+                                    <a href="/Recado/Create" style="visibility:visible" title="Recados" class="dcjq-parent">
+                                        <i class="fa fa-hard-of-hearing"></i>
+                                        <span>RECADOS</span>
+                                    </a>
+                                </li>
+                                <li class="collapse show">
+                                    <a href="/BloqueioCadastro/Create" style="visibility:visible" title="" class="dcjq-parent">
+                                        <i class="fas fa-hand-paper"></i>
+                                        <span>BLOQUEAR INSERÇÃO AULAS</span>
+                                    </a>
+                                </li>
+                            }
+                            else if (((atribuicaoAulas.ACESSO)(Session["usuarioLogado"])).IDPERFIL == 3)  //supervisor
+                            {
+                                <li class="sub-menu dcjq-parent-li">
+                                    <a href="#" style="visibility:visible" title="Cadastro de Aulas" class="dcjq-parent">
+                                        <i class="fas fa-arrow-right"></i>
+                                        <span>CADASTRO DE AULAS</span>
+                                    </a>
+                                    <ul id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                        <li>
+                                            <a href="/aulasDisponiveis/Index"><i class="dcjq-parent"></i>AULAS DISPONÍVEIS</a>
+                                        </li>
+                                    </ul>
+                                    <ul id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                        <li>
+                                            <a href="/aulasDisponiveis/Create"><i class="dcjq-parent"></i>CADASTRAR NOVA</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu dcjq-parent-li">
+                                    <a data-toggle="collapse" data-target="#collapseOne">
+                                        <i class="fa fa-file-text"></i>
+                                        <span>RELATÓRIOS</span>
+                                    </a>
+                                    <ul id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                        <li>
+                                            <a href="/aulasDisponiveis/relAulasAtribuidas"><i class="dcjq-parent"></i>AULAS ATRIBUíDAS</a>
+                                        </li>
+                                    </ul>
+                                    <ul id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                        <li>
+                                            <a href="/aulasDisponiveis/relAulasNaoAtribuidas"><i class="dcjq-parent"></i>AULAS NÂO ATRIBUíDAS</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="sub-menu dcjq-parent-li">
+                                    <a href="#" style="visibility:visible" title="Cadastro de Aulas" class="dcjq-parent">
+                                        <i class="fas fa-arrow-right"></i>
+                                        <span>CADASTRO DE AULAS</span>
+                                    </a>
+                                    <ul id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                        <li>
+                                            <a href="/aulasDisponiveis/Index"><i class="dcjq-parent"></i>AULAS DISPONÍVEIS</a>
+                                        </li>
+                                    </ul>
+                                    <ul id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                        <li>
+                                            <a href="/aulasDisponiveis/Create"><i class="dcjq-parent"></i>CADASTRAR NOVA</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu dcjq-parent-li">
+                                    <a data-toggle="collapse" data-target="#collapseOne">
+                                        <i class="fa fa-file-text"></i>
+                                        <span>RELATÓRIOS</span>
+                                    </a>
+                                    <ul id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                        <li>
+                                            <a href="/aulasDisponiveis/relAulasAtribuidas"><i class="dcjq-parent"></i>AULAS ATRIBUíDAS</a>
+                                        </li>
+                                    </ul>
+                                    <ul id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                        <li>
+                                            <a href="/aulasDisponiveis/relAulasNaoAtribuidas"><i class="dcjq-parent"></i>AULAS NÂO ATRIBUíDAS</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            }
+                        }
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <section id="main-content" class="relative">
+            <section class="wrapper">
+                @if (recado != null)
+                {
+                    if (recado.dataRecado != null && recado.dataRecado != "")
+                    {<h4><b>ATRIBUIÇÃO DE AULA</b> - @recado.dataRecado</h4>}
+
+                    if (recado.EnderecoRecado != null && recado.EnderecoRecado != "")
+                    {<h4><b>Endereço</b>: @recado.EnderecoRecado</h4>}
+
+                    if (recado.descrRecado != null && recado.descrRecado != "")
+                    {
+                        recado.descrRecado = recado.descrRecado.Trim();
+                        if (recado.descrRecado.Contains("Atenção") || recado.descrRecado.Contains("atenção") || recado.descrRecado.Contains("ATENÇÃO") || recado.descrRecado.Contains("atencao") || recado.descrRecado.Contains("ATENCAO"))
+                        {
+                            recado.descrRecado = recado.descrRecado.Replace("Atenção", "ATENÇÃO: ").Replace("atenção", "ATENÇÃO: v").Replace("atencao", "ATENÇÃO: ").Replace("ATENCAO", "ATENÇÃO: ");
+                            <h4 id="Hrecados"><span style="color: #ff0000">ATENÇÃO: </span>@recado.descrRecado.Substring(8) </h4>
+                        }
+                        else
+                        {
+                            <h4 id="Hrecados">@recado.descrRecado</h4>
+                        }
+                    }
+                }
+                @RenderBody()
+                <div id="progressModal" style="display: none;">
+                    <div class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static" style="display: block; padding-right: 17px;">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title" id="myModalLabel"><i class="fa fa-clock-o fa-spin size30 margright10 blue"></i> <span class="mt-5"> Por Favor, espere</span></h4>
+                                </div>
+                                <div class="modal-body center-block">
+                                    <p><span id="barramsg"></span></p>
+                                    <div class="progress progress-striped active progress-sm">
+                                        <div class="progress-bar progress-bar-warning" id="barra" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
+                                            <span class="sr-only"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-backdrop fade in"></div>
+                </div>
+            </section>
+        </section>
+    </section>
+</body>
+
+<!-- Jquery Biblioteca-->
+<script src="~/template/js/jquery-3.2.0.js"></script>
+
+<script src="~/Scripts/jquery.signalR-2.2.1.min.js"></script>
+<script src="~/signalr/hubs"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="~/template/js/bootstrap.min.js"></script>
+<script src="~/template/js/fontsize.js"></script>
+<!-- JavaScript Custom para Todas as Páginas-->
+<script src="~/Scripts/Utils/Scripts.js"></script>
+<script src="~/template/js/scripts_custom.js"></script>
+<!-- Js accordion  Menu -->
+<script class="include" type="text/javascript" src="~/template/js/plugins/jquery.dcjqaccordion.2.7.js"></script>
+<!-- Js Scroll Personalizado Menu -->
+<script src="~/template/js/plugins/jquery.nicescroll.js"></script>
+
+<script src="~/Scripts/Frameworks/jquery.serializeObject.js"></script>
+<script src="~/template/js/plugins/jquery.gritter.js"></script>
+<script src="~/Scripts/Frameworks/date.format.js"></script>
+
+@RenderSection("PageScript", false)
+<script>
+

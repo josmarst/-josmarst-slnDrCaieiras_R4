@@ -1,0 +1,544 @@
+﻿@model List<atribuicaoAulas.AULASDISPONIVEIS>
+@{
+	var Tipoaula = ViewBag.IdTipoAula;
+	var Afastamento = ViewBag.IdAfastamento;
+	var Escola = ViewBag.IdEscola;
+	var professor = ViewBag.Professor;
+	var PeriodoAfastamento = ViewBag.PeriodoAfastamento;
+	var descrEscola = ViewBag.descrEscola;
+	var Disciplina = ViewBag.Disciplina;
+	var atpcM = ""; var atpcT = ""; var atpcN = "";
+	var manha = false; var tarde = false; var noite = false;
+
+	var str11 = ""; var str12 = ""; var str13 = ""; var str14 = ""; var str15 = ""; var str16 = ""; var str17 = "";
+	var str21 = ""; var str22 = ""; var str23 = ""; var str24 = ""; var str25 = ""; var str26 = ""; var str27 = "";
+	var str31 = ""; var str32 = ""; var str33 = ""; var str34 = ""; var str35 = ""; var str36 = ""; var str37 = "";
+	var str41 = ""; var str42 = ""; var str43 = ""; var str44 = ""; var str45 = ""; var str46 = ""; var str47 = "";
+	var str51 = ""; var str52 = ""; var str53 = ""; var str54 = ""; var str55 = ""; var str56 = ""; var str57 = "";
+
+	var str211 = ""; var str212 = ""; var str213 = ""; var str214 = ""; var str215 = ""; var str216 = ""; var str217 = "";
+	var str221 = ""; var str222 = ""; var str223 = ""; var str224 = ""; var str225 = ""; var str226 = ""; var str227 = "";
+	var str231 = ""; var str232 = ""; var str233 = ""; var str234 = ""; var str235 = ""; var str236 = ""; var str237 = "";
+	var str241 = ""; var str242 = ""; var str243 = ""; var str244 = ""; var str245 = ""; var str246 = ""; var str247 = "";
+	var str251 = ""; var str252 = ""; var str253 = ""; var str254 = ""; var str255 = ""; var str256 = ""; var str257 = "";
+
+	var str311 = ""; var str312 = ""; var str313 = ""; var str314 = ""; var str315 = ""; var str316 = ""; var str317 = "";
+	var str321 = ""; var str322 = ""; var str323 = ""; var str324 = ""; var str325 = ""; var str326 = ""; var str327 = "";
+	var str331 = ""; var str332 = ""; var str333 = ""; var str334 = ""; var str335 = ""; var str336 = ""; var str337 = "";
+	var str341 = ""; var str342 = ""; var str343 = ""; var str344 = ""; var str345 = ""; var str346 = ""; var str347 = "";
+	var str351 = ""; var str352 = ""; var str353 = ""; var str354 = ""; var str355 = ""; var str356 = ""; var str357 = "";
+}
+
+
+<div class="panel panel-default ">
+    <div class="panel-heading">
+        <h2>Saldo de Aulas - @descrEscola</h2>
+        <span class="tools pull-right">  </span>
+    </div>
+
+    <form id="formCadastro">
+        @Html.AntiForgeryToken()
+        <div class="form-horizontal">
+            <hr />
+            <div class="form-group">
+                @Html.LabelForModel("Escola:", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-8">
+                    @Html.DropDownList("idEscola", (SelectList)ViewBag.IDESCOLA, new { @class = "form-control", @readonly = "readonly" })
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="bg-important col-md-8  col-md-offset-2" style="background-color: #EEE">
+                    <div class="line3"></div>
+                    @*MANHÃ*@
+                    @foreach (var aula in Model)
+					{
+						if (aula.IDTURNO == 1)
+						{
+							manha = true;
+							atpcM = "ATPC: " + aula.ATPC;
+							var Diadasemana = aula.DIADASEMANA.Trim();
+							var Horario = aula.HORARIO.Trim();
+							var arrDiadasemana = Diadasemana.Split(',');
+							var arrHorario = Horario.Split(',');
+
+							for (int i = 0; i < aula.QTDEAULAS; i++)
+							{
+								if (arrDiadasemana[i] == "1" && arrHorario[i] == "1") { str11 = aula.TURMA; }
+								if (arrDiadasemana[i] == "1" && arrHorario[i] == "2") { str12 = aula.TURMA; }
+								if (arrDiadasemana[i] == "1" && arrHorario[i] == "3") { str13 = aula.TURMA; }
+								if (arrDiadasemana[i] == "1" && arrHorario[i] == "4") { str14 = aula.TURMA; }
+								if (arrDiadasemana[i] == "1" && arrHorario[i] == "5") { str15 = aula.TURMA; }
+								if (arrDiadasemana[i] == "1" && arrHorario[i] == "6") { str16 = aula.TURMA; }
+								if (arrDiadasemana[i] == "1" && arrHorario[i] == "7") { str17 = aula.TURMA; }
+
+								if (arrDiadasemana[i] == "2" && arrHorario[i] == "1") { str21 = aula.TURMA; }
+								if (arrDiadasemana[i] == "2" && arrHorario[i] == "2") { str22 = aula.TURMA; }
+								if (arrDiadasemana[i] == "2" && arrHorario[i] == "3") { str23 = aula.TURMA; }
+								if (arrDiadasemana[i] == "2" && arrHorario[i] == "4") { str24 = aula.TURMA; }
+								if (arrDiadasemana[i] == "2" && arrHorario[i] == "5") { str25 = aula.TURMA; }
+								if (arrDiadasemana[i] == "2" && arrHorario[i] == "6") { str26 = aula.TURMA; }
+								if (arrDiadasemana[i] == "2" && arrHorario[i] == "7") { str27 = aula.TURMA; }
+
+								if (arrDiadasemana[i] == "3" && arrHorario[i] == "1") { str31 = aula.TURMA; }
+								if (arrDiadasemana[i] == "3" && arrHorario[i] == "2") { str32 = aula.TURMA; }
+								if (arrDiadasemana[i] == "3" && arrHorario[i] == "3") { str33 = aula.TURMA; }
+								if (arrDiadasemana[i] == "3" && arrHorario[i] == "4") { str34 = aula.TURMA; }
+								if (arrDiadasemana[i] == "3" && arrHorario[i] == "5") { str35 = aula.TURMA; }
+								if (arrDiadasemana[i] == "3" && arrHorario[i] == "6") { str36 = aula.TURMA; }
+								if (arrDiadasemana[i] == "3" && arrHorario[i] == "7") { str37 = aula.TURMA; }
+
+								if (arrDiadasemana[i] == "4" && arrHorario[i] == "1") { str41 = aula.TURMA; }
+								if (arrDiadasemana[i] == "4" && arrHorario[i] == "2") { str42 = aula.TURMA; }
+								if (arrDiadasemana[i] == "4" && arrHorario[i] == "3") { str43 = aula.TURMA; }
+								if (arrDiadasemana[i] == "4" && arrHorario[i] == "4") { str44 = aula.TURMA; }
+								if (arrDiadasemana[i] == "4" && arrHorario[i] == "5") { str45 = aula.TURMA; }
+								if (arrDiadasemana[i] == "4" && arrHorario[i] == "6") { str46 = aula.TURMA; }
+								if (arrDiadasemana[i] == "4" && arrHorario[i] == "7") { str47 = aula.TURMA; }
+
+								if (arrDiadasemana[i] == "5" && arrHorario[i] == "1") { str51 = aula.TURMA; }
+								if (arrDiadasemana[i] == "5" && arrHorario[i] == "2") { str52 = aula.TURMA; }
+								if (arrDiadasemana[i] == "5" && arrHorario[i] == "3") { str53 = aula.TURMA; }
+								if (arrDiadasemana[i] == "5" && arrHorario[i] == "4") { str54 = aula.TURMA; }
+								if (arrDiadasemana[i] == "5" && arrHorario[i] == "5") { str55 = aula.TURMA; }
+								if (arrDiadasemana[i] == "5" && arrHorario[i] == "6") { str56 = aula.TURMA; }
+								if (arrDiadasemana[i] == "5" && arrHorario[i] == "7") { str57 = aula.TURMA; }
+							}
+						}
+					}
+                    @if (manha)
+                    {
+                        <div class="panel-body" id="turno1">
+                            <div class="col-lg-12 offset-0">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-hover table-striped sortable-theme-bootstrap table-link border0" data-sortable>
+                                        <thead>
+                                            <tr>
+                                                <th>		</th>
+                                                <th> Segunda</th>
+                                                <th> Terça</th>
+                                                <th> Quarta</th>
+                                                <th> Quinta</th>
+                                                <th> Sexta</th>
+                                            </tr>
+                                        </thead>
+										<tbody>
+											<tr>
+												@Html.LabelForModel("Disciplina:", htmlAttributes: new { @class = "control-label col-md-2" })
+												<div class="col-md-3">
+													@Html.DropDownList("IdDisciplina", (SelectList)ViewBag.Disciplina, new { @class = "form-control", @readonly = "readonly" })
+												</div>
+												@Html.LabelForModel("Turno:", htmlAttributes: new { @class = "control-label col-md-1" })
+												<div class="col-md-3">
+													<h4><b> MANHÃ </b> </h4>
+												</div>
+											</tr>
+											<hr />
+											<tr>
+												<td class="form-control"><B>1º Aula   </B></td>
+												<td>@Html.TextBox("turma", str11, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str21, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str31, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str41, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str51, new { @class = "form-control", @readonly = "readonly" })</td>
+											</tr>
+											<tr>
+												<td class="form-control"><B>2º Aula   </B></td>
+												<td>@Html.TextBox("turma", str12, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str22, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str32, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str42, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str52, new { @class = "form-control", @readonly = "readonly" })</td>
+											</tr>
+											<tr>
+												<td class="form-control"><B>3º Aula   </B></td>
+												<td>@Html.TextBox("turma", str13, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str23, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str33, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str43, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str53, new { @class = "form-control", @readonly = "readonly" })</td>
+											</tr>
+											<tr>
+												<td class="form-control"><B>4º Aula   </B></td>
+												<td>@Html.TextBox("turma", str14, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str24, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str34, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str44, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str54, new { @class = "form-control", @readonly = "readonly" })</td>
+											</tr>
+											<tr>
+												<td class="form-control"><B>5º Aula   </B></td>
+												<td>@Html.TextBox("turma", str15, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str25, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str35, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str45, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str55, new { @class = "form-control", @readonly = "readonly" })</td>
+											</tr>
+											<tr>
+												<td class="form-control"><B>6º Aula   </B></td>
+												<td>@Html.TextBox("turma", str16, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str26, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str36, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str46, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str56, new { @class = "form-control", @readonly = "readonly" })</td>
+											</tr>
+											<tr>
+												<td class="form-control"><B>7º Aula   </B></td>
+												<td>@Html.TextBox("turma", str17, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str27, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str37, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str47, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str57, new { @class = "form-control", @readonly = "readonly" })</td>
+											</tr>
+
+										</tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <td>@Html.TextBox("atpc", atpcM, new { @class = "form-control", @readonly = "readonly" })</td>
+                        </div>
+                        <div class="line3"></div>
+                        <div class="line3"></div>
+                    }
+                    @*FIM MANHÃ*@
+
+
+                    @*TARDE*@
+                    @foreach (var aula in Model)
+					{
+						if (aula.IDTURNO == 2)
+						{
+							tarde = true;
+							atpcT = "ATPC: " + aula.ATPC;
+							var Diadasemana = aula.DIADASEMANA.Trim();
+							var Horario = aula.HORARIO.Trim();
+							var arrDiadasemana = Diadasemana.Split(',');
+							var arrHorario = Horario.Split(',');
+
+							for (int i = 0; i < aula.QTDEAULAS; i++)
+							{
+								if (arrDiadasemana[i] == "1" && arrHorario[i] == "1") { str211 = aula.TURMA; }
+								if (arrDiadasemana[i] == "1" && arrHorario[i] == "2") { str212 = aula.TURMA; }
+								if (arrDiadasemana[i] == "1" && arrHorario[i] == "3") { str213 = aula.TURMA; }
+								if (arrDiadasemana[i] == "1" && arrHorario[i] == "4") { str214 = aula.TURMA; }
+								if (arrDiadasemana[i] == "1" && arrHorario[i] == "5") { str215 = aula.TURMA; }
+								if (arrDiadasemana[i] == "1" && arrHorario[i] == "6") { str216 = aula.TURMA; }
+								if (arrDiadasemana[i] == "1" && arrHorario[i] == "7") { str217 = aula.TURMA; }
+
+								if (arrDiadasemana[i] == "2" && arrHorario[i] == "1") { str221 = aula.TURMA; }
+								if (arrDiadasemana[i] == "2" && arrHorario[i] == "2") { str222 = aula.TURMA; }
+								if (arrDiadasemana[i] == "2" && arrHorario[i] == "3") { str223 = aula.TURMA; }
+								if (arrDiadasemana[i] == "2" && arrHorario[i] == "4") { str224 = aula.TURMA; }
+								if (arrDiadasemana[i] == "2" && arrHorario[i] == "5") { str225 = aula.TURMA; }
+								if (arrDiadasemana[i] == "2" && arrHorario[i] == "6") { str226 = aula.TURMA; }
+								if (arrDiadasemana[i] == "2" && arrHorario[i] == "7") { str227 = aula.TURMA; }
+
+								if (arrDiadasemana[i] == "3" && arrHorario[i] == "1") { str231 = aula.TURMA; }
+								if (arrDiadasemana[i] == "3" && arrHorario[i] == "2") { str232 = aula.TURMA; }
+								if (arrDiadasemana[i] == "3" && arrHorario[i] == "3") { str233 = aula.TURMA; }
+								if (arrDiadasemana[i] == "3" && arrHorario[i] == "4") { str234 = aula.TURMA; }
+								if (arrDiadasemana[i] == "3" && arrHorario[i] == "5") { str235 = aula.TURMA; }
+								if (arrDiadasemana[i] == "3" && arrHorario[i] == "6") { str236 = aula.TURMA; }
+								if (arrDiadasemana[i] == "3" && arrHorario[i] == "7") { str237 = aula.TURMA; }
+
+								if (arrDiadasemana[i] == "4" && arrHorario[i] == "1") { str241 = aula.TURMA; }
+								if (arrDiadasemana[i] == "4" && arrHorario[i] == "2") { str242 = aula.TURMA; }
+								if (arrDiadasemana[i] == "4" && arrHorario[i] == "3") { str243 = aula.TURMA; }
+								if (arrDiadasemana[i] == "4" && arrHorario[i] == "4") { str244 = aula.TURMA; }
+								if (arrDiadasemana[i] == "4" && arrHorario[i] == "5") { str245 = aula.TURMA; }
+								if (arrDiadasemana[i] == "4" && arrHorario[i] == "6") { str246 = aula.TURMA; }
+								if (arrDiadasemana[i] == "4" && arrHorario[i] == "7") { str247 = aula.TURMA; }
+
+								if (arrDiadasemana[i] == "5" && arrHorario[i] == "1") { str251 = aula.TURMA; }
+								if (arrDiadasemana[i] == "5" && arrHorario[i] == "2") { str252 = aula.TURMA; }
+								if (arrDiadasemana[i] == "5" && arrHorario[i] == "3") { str253 = aula.TURMA; }
+								if (arrDiadasemana[i] == "5" && arrHorario[i] == "4") { str254 = aula.TURMA; }
+								if (arrDiadasemana[i] == "5" && arrHorario[i] == "5") { str255 = aula.TURMA; }
+								if (arrDiadasemana[i] == "5" && arrHorario[i] == "6") { str256 = aula.TURMA; }
+								if (arrDiadasemana[i] == "5" && arrHorario[i] == "7") { str257 = aula.TURMA; }
+							}
+						}
+					}
+                    @if (tarde)
+                    {
+                        <div class="panel-body" id="turno2">
+                            <div class="col-lg-12 offset-0">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-hover table-striped sortable-theme-bootstrap table-link border0" data-sortable>
+                                        <thead>
+                                            <tr>
+                                                <th>		</th>
+                                                <th> Segunda</th>
+                                                <th> Terça</th>
+                                                <th> Quarta</th>
+                                                <th> Quinta</th>
+                                                <th> Sexta</th>
+                                            </tr>
+                                        </thead>
+										<tbody>
+											<tr>
+												@Html.LabelForModel("Disciplina:", htmlAttributes: new { @class = "control-label col-md-2" })
+												<div class="col-md-3">
+													@Html.DropDownList("IdDisciplina", (SelectList)ViewBag.Disciplina, new { @class = "form-control", @readonly = "readonly" })
+												</div>
+												@Html.LabelForModel("Turno:", htmlAttributes: new { @class = "control-label col-md-1" })
+												<div class="col-md-3">
+													<h4><b> TARDE </b> </h4>
+												</div>
+											</tr>
+											<hr />
+
+											<script type="text/javascript" language="JavaScript">
+												limpaVariaveis();
+											</script>
+											<tr>
+												<td class="form-control"><B>1º Aula   </B></td>
+												<td>@Html.TextBox("turma", str211, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str221, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str231, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str241, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str251, new { @class = "form-control", @readonly = "readonly" })</td>
+											</tr>
+											<tr>
+												<td class="form-control"><B>2º Aula   </B></td>
+												<td>@Html.TextBox("turma", str212, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str222, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str232, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str242, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str252, new { @class = "form-control", @readonly = "readonly" })</td>
+											</tr>
+											<tr>
+												<td class="form-control"><B>3º Aula   </B></td>
+												<td>@Html.TextBox("turma", str213, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str223, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str233, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str243, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str253, new { @class = "form-control", @readonly = "readonly" })</td>
+											</tr>
+											<tr>
+												<td class="form-control"><B>4º Aula   </B></td>
+												<td>@Html.TextBox("turma", str214, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str224, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str234, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str244, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str254, new { @class = "form-control", @readonly = "readonly" })</td>
+											</tr>
+											<tr>
+												<td class="form-control"><B>5º Aula   </B></td>
+												<td>@Html.TextBox("turma", str215, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str225, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str235, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str245, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str255, new { @class = "form-control", @readonly = "readonly" })</td>
+											</tr>
+											<tr>
+												<td class="form-control"><B>6º Aula   </B></td>
+												<td>@Html.TextBox("turma", str216, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str226, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str236, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str246, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str256, new { @class = "form-control", @readonly = "readonly" })</td>
+											</tr>
+											<tr>
+												<td class="form-control"><B>7º Aula   </B></td>
+												<td>@Html.TextBox("turma", str217, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str227, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str237, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str247, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str257, new { @class = "form-control", @readonly = "readonly" })</td>
+											</tr>
+										</tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <td>@Html.TextBox("atpc", atpcT, new { @class = "form-control", @readonly = "readonly" })</td>
+                        </div>
+                        <div class="line3"></div>
+                        <div class="line3"></div>
+                    }
+                    @*FIM TARDE*@
+
+
+                    @*NOITE*@
+                    @foreach (var aula in Model)
+					{
+						if (aula.IDTURNO == 3)
+						{
+							noite = true;
+							atpcN = "ATPC: " + aula.ATPC;
+							var Diadasemana = aula.DIADASEMANA.Trim();
+							var Horario = aula.HORARIO.Trim();
+							var arrDiadasemana = Diadasemana.Split(',');
+							var arrHorario = Horario.Split(',');
+
+							for (int i = 0; i < aula.QTDEAULAS; i++)
+							{
+								if (arrDiadasemana[i] == "1" && arrHorario[i] == "1") { str311 = aula.TURMA; }
+								if (arrDiadasemana[i] == "1" && arrHorario[i] == "2") { str312 = aula.TURMA; }
+								if (arrDiadasemana[i] == "1" && arrHorario[i] == "3") { str313 = aula.TURMA; }
+								if (arrDiadasemana[i] == "1" && arrHorario[i] == "4") { str314 = aula.TURMA; }
+								if (arrDiadasemana[i] == "1" && arrHorario[i] == "5") { str315 = aula.TURMA; }
+								if (arrDiadasemana[i] == "1" && arrHorario[i] == "6") { str316 = aula.TURMA; }
+								if (arrDiadasemana[i] == "1" && arrHorario[i] == "7") { str317 = aula.TURMA; }
+
+								if (arrDiadasemana[i] == "2" && arrHorario[i] == "1") { str321 = aula.TURMA; }
+								if (arrDiadasemana[i] == "2" && arrHorario[i] == "2") { str322 = aula.TURMA; }
+								if (arrDiadasemana[i] == "2" && arrHorario[i] == "3") { str323 = aula.TURMA; }
+								if (arrDiadasemana[i] == "2" && arrHorario[i] == "4") { str324 = aula.TURMA; }
+								if (arrDiadasemana[i] == "2" && arrHorario[i] == "5") { str325 = aula.TURMA; }
+								if (arrDiadasemana[i] == "2" && arrHorario[i] == "6") { str326 = aula.TURMA; }
+								if (arrDiadasemana[i] == "2" && arrHorario[i] == "7") { str327 = aula.TURMA; }
+
+								if (arrDiadasemana[i] == "3" && arrHorario[i] == "1") { str331 = aula.TURMA; }
+								if (arrDiadasemana[i] == "3" && arrHorario[i] == "2") { str332 = aula.TURMA; }
+								if (arrDiadasemana[i] == "3" && arrHorario[i] == "3") { str333 = aula.TURMA; }
+								if (arrDiadasemana[i] == "3" && arrHorario[i] == "4") { str334 = aula.TURMA; }
+								if (arrDiadasemana[i] == "3" && arrHorario[i] == "5") { str335 = aula.TURMA; }
+								if (arrDiadasemana[i] == "3" && arrHorario[i] == "6") { str336 = aula.TURMA; }
+								if (arrDiadasemana[i] == "3" && arrHorario[i] == "7") { str337 = aula.TURMA; }
+
+								if (arrDiadasemana[i] == "4" && arrHorario[i] == "1") { str341 = aula.TURMA; }
+								if (arrDiadasemana[i] == "4" && arrHorario[i] == "2") { str342 = aula.TURMA; }
+								if (arrDiadasemana[i] == "4" && arrHorario[i] == "3") { str343 = aula.TURMA; }
+								if (arrDiadasemana[i] == "4" && arrHorario[i] == "4") { str344 = aula.TURMA; }
+								if (arrDiadasemana[i] == "4" && arrHorario[i] == "5") { str345 = aula.TURMA; }
+								if (arrDiadasemana[i] == "4" && arrHorario[i] == "6") { str346 = aula.TURMA; }
+								if (arrDiadasemana[i] == "4" && arrHorario[i] == "7") { str347 = aula.TURMA; }
+
+								if (arrDiadasemana[i] == "5" && arrHorario[i] == "1") { str351 = aula.TURMA; }
+								if (arrDiadasemana[i] == "5" && arrHorario[i] == "2") { str352 = aula.TURMA; }
+								if (arrDiadasemana[i] == "5" && arrHorario[i] == "3") { str353 = aula.TURMA; }
+								if (arrDiadasemana[i] == "5" && arrHorario[i] == "4") { str354 = aula.TURMA; }
+								if (arrDiadasemana[i] == "5" && arrHorario[i] == "5") { str355 = aula.TURMA; }
+								if (arrDiadasemana[i] == "5" && arrHorario[i] == "6") { str356 = aula.TURMA; }
+								if (arrDiadasemana[i] == "5" && arrHorario[i] == "7") { str357 = aula.TURMA; }
+							}
+						}
+					}
+                    @if (noite)
+                    {
+                        <div class="panel-body" id="turno3">
+                            <div class="col-lg-12 offset-0">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-hover table-striped sortable-theme-bootstrap table-link border0" data-sortable>
+                                        <thead>
+                                            <tr>
+                                                <th>		</th>
+                                                <th> Segunda</th>
+                                                <th> Terça</th>
+                                                <th> Quarta</th>
+                                                <th> Quinta</th>
+                                                <th> Sexta</th>
+                                            </tr>
+                                        </thead>
+										<tbody>
+											<tr>
+												@Html.LabelForModel("Disciplina:", htmlAttributes: new { @class = "control-label col-md-2" })
+												<div class="col-md-3">
+													@Html.DropDownList("IdDisciplina", (SelectList)ViewBag.Disciplina, new { @class = "form-control", @readonly = "readonly" })
+												</div>
+												@Html.LabelForModel("Turno:", htmlAttributes: new { @class = "control-label col-md-1" })
+												<div class="col-md-3">
+													<h4><b> NOITE </b> </h4>
+												</div>
+											</tr>
+											<hr />
+											<tr>
+												<td class="form-control"><B>1º Aula   </B></td>
+												<td>@Html.TextBox("turma", str311, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str321, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str331, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str341, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str351, new { @class = "form-control", @readonly = "readonly" })</td>
+											</tr>
+											<tr>
+												<td class="form-control"><B>2º Aula   </B></td>
+												<td>@Html.TextBox("turma", str312, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str322, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str332, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str342, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str352, new { @class = "form-control", @readonly = "readonly" })</td>
+											</tr>
+											<tr>
+												<td class="form-control"><B>3º Aula   </B></td>
+												<td>@Html.TextBox("turma", str313, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str323, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str333, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str343, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str353, new { @class = "form-control", @readonly = "readonly" })</td>
+											</tr>
+											<tr>
+												<td class="form-control"><B>4º Aula   </B></td>
+												<td>@Html.TextBox("turma", str314, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str324, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str334, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str344, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str354, new { @class = "form-control", @readonly = "readonly" })</td>
+											</tr>
+											<tr>
+												<td class="form-control"><B>5º Aula   </B></td>
+												<td>@Html.TextBox("turma", str315, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str325, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str335, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str345, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str355, new { @class = "form-control", @readonly = "readonly" })</td>
+											</tr>
+											<tr>
+												<td class="form-control"><B>6º Aula   </B></td>
+												<td>@Html.TextBox("turma", str316, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str326, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str336, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str346, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str356, new { @class = "form-control", @readonly = "readonly" })</td>
+											</tr>
+											<tr>
+												<td class="form-control"><B>7º Aula   </B></td>
+												<td>@Html.TextBox("turma", str317, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str327, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str337, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str347, new { @class = "form-control", @readonly = "readonly" })</td>
+												<td>@Html.TextBox("turma", str357, new { @class = "form-control", @readonly = "readonly" })</td>
+											</tr>
+										</tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <td>@Html.TextBox("atpc", atpcN, new { @class = "form-control", @readonly = "readonly" })</td>
+                        </div>
+                        <div class="line3"></div>
+                        <div class="line3"></div>
+                    }
+                    @*FIM NOITE*@
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelForModel("Tipo de aula:", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-8">
+                    @Html.DropDownList("idTipoAula", (SelectList)ViewBag.IdTipoAula, new { @class = "form-control", @readonly = "readonly" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelForModel("Tipo de afastamento:", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-8">
+                    @Html.DropDownList("IdAfastamento", (SelectList)ViewBag.IdAfastamento, new { @class = "form-control", @readonly = "readonly" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelForModel("Período de Afastamento:", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-8">
+                    @Html.TextBox("PeriodoAfastamento", (string)PeriodoAfastamento, new { @class = "form-control", @readonly = "readonly" })
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <a href="javascript:history.back()" class="btn btn-primary btn-large" role="button" aria-pressed="true">Voltar</a>
+                </div>
+            </div>
+    </form>
+</div>

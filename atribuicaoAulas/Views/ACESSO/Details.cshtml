@@ -1,0 +1,36 @@
+﻿@model atribuicaoAulas.ACESSO
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>ACESSO</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt> @Html.DisplayNameFor(model => model.SENHA)     </dt>
+            <dd> @Html.DisplayFor(model => model.SENHA)         </dd>
+            <dt> @Html.DisplayNameFor(model => model.ATIVO)     </dt>
+            <dd> @Html.DisplayFor(model => model.ATIVO)         </dd>
+            <dt> @Html.DisplayNameFor(model => model.IDPERFIL)  </dt>
+            <dd> @Html.DisplayFor(model => model.IDPERFIL)      </dd>
+            <dt> @Html.DisplayNameFor(model => model.NOME)      </dt>
+            <dd> @Html.DisplayFor(model => model.NOME)          </dd>
+            <dt> @Html.DisplayNameFor(model => model.IDESCOLA)  </dt>
+            <dd> @Html.DisplayFor(model => model.IDESCOLA)      </dd>
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.CPF }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

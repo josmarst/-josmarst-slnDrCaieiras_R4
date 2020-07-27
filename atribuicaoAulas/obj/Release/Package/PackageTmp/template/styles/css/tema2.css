@@ -1,0 +1,26 @@
+#sidebar {
+    background: #07416d;
+}
+
+ul.sidebar-menu li a i {
+    color: #fff;
+    }
+
+    ul.sidebar-menu li.sub-menu ul.sub a i {
+    color: #ccc;
+    }
+
+    ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
+    background: #052b48;
+}
+
+
+
+
+    .panel-heading > [class^="fa-"], .panel-heading > [class*=" fa-"] {
+    color: #66baf9;
+}
+
+ul.sidebar-menu li a.active i {
+    color: #66baf9;
+}

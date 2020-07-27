@@ -1,0 +1,34 @@
+﻿@model atribuicaoAulas.AULASDISPONIVEIS
+
+<h3>Confirma a exclusão do registro?</h3>
+<div>
+    <h4>aulasDisponiveis</h4>
+    <h4>Usuário Logado: @Session["usuarioLogado"]</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt> @Html.DisplayNameFor(model => model.IDDISCIPLINA)          </dt>
+        <dd> @Html.DisplayFor(model => model.IDDISCIPLINA)              </dd>
+        <dt> @Html.DisplayNameFor(model => model.IDTURNO)               </dt>
+        <dd> @Html.DisplayFor(model => model.IDTURNO)                   </dd>
+        <dt> @Html.DisplayNameFor(model => model.IDTIPOAULA)            </dt>
+        <dd> @Html.DisplayFor(model => model.IDTIPOAULA)                </dd>
+        <dt> @Html.DisplayNameFor(model => model.IDAFASTAMENTO)         </dt>
+        <dd> @Html.DisplayFor(model => model.IDAFASTAMENTO)             </dd>
+        <dt> @Html.DisplayNameFor(model => model.PERIODOAFASTAMENTO)    </dt>
+        <dd> @Html.DisplayFor(model => model.PERIODOAFASTAMENTO)        </dd>
+        <dt> @Html.DisplayNameFor(model => model.QTDEAULAS)             </dt>
+        <dd> @Html.DisplayFor(model => model.QTDEAULAS)                 </dd>
+        <dt> @Html.DisplayNameFor(model => model.IDESCOLA)              </dt>
+        <dd> @Html.DisplayFor(model => model.IDESCOLA)                  </dd>
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Excluir" class="btn btn-default" /> |
+            @Html.ActionLink("Voltar", "Index")
+        </div>
+    }
+
+</div>

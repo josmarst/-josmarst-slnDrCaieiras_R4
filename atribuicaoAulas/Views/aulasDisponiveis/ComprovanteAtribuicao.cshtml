@@ -1,0 +1,194 @@
+﻿@using atribuicaoAulas.Models
+@model atribuicaoAulas.AULASDISPONIVEIS
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var NomeEscola = ViewBag.NomeEscola;
+    var turno = ViewBag.Turno;
+    var tipoAula = ViewBag.TipoAula;
+    var disciplina = ViewBag.Disciplina;
+    var afastamento = ViewBag.Afastamento;
+}
+<div id="tabela">
+    <div class="panel panel-default">
+        <div class="offset-0">
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover table-striped sortable-theme-bootstrap table-link border0" data-sortable>
+                    <thead>
+                        <tr>
+                            <th>
+                                <div class="form-group text-center">
+                                    <div class="col-md-11">
+                                        @*<a title="Diretoria de Ensino - Região de Caieiras"><img src="~/template/resources/img/Banner atribuição.jpg" alt="Diretoria de Ensino - Região de Caieiras"></a>*@
+                                    </div>
+                                </div>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <div class="form-group text-center">
+                                    <h3>Processo de Atribuição de Aulas - @DateTime.Now.Year</h3>
+                                    <div class="col-md-12">
+                                        <h3>Comprovante de Atribuição</h3>
+                                    </div>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <form id="formBusca">
+                    <div class="panel panel-default ">
+                        <div class="panel-body">
+                            <div class="col-lg-12">
+                                <div class="margtop10 right_mobile margbottom10 radio radiomargin0">      </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="line3"></div>
+                            <div class="col-md-6 offset-0 ">
+                                <div class="col-md-6 col-xs-12 col-lg-6 col-sm-6 margbottom10">
+                                    <label for="">Nome </label>
+                                    <input type="text" name="Nome" placeholder="Nome" class="form-control date" id="txtNome">
+                                </div>
+                                <div class="col-md-6 col-xs-12 col-lg-6 col-sm-6 margbottom10">
+                                    <label for="cpf">CPF </label>
+                                    <input type="text" name="CPF" placeholder="CPF" class="form-control cpf" id="txtCPF">
+                                </div>
+                            </div>
+                            <div class="col-md-6 offset-0 ">
+                                <div class="col-md-6 col-xs-12 col-lg-6 col-sm-6 margbottom10">
+                                    <label for="documento">Categoria</label>
+                                    <input type="text" name="Categoria" placeholder="Categoria" class="form-control" id="txtCategoria">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="col-md-12 offset-0 ">
+                                <div class="col-md-6 col-xs-12 col-lg-6 col-sm-6 margbottom10">
+                                    <label for="observacao">Observação</label>
+                                    @Html.TextArea("observacao", new { @class = "form-control", @maxlength = "200" })
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-md-12 margtop10" id="divMsg">
+            </div>
+        </div>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover table-striped sortable-theme-bootstrap table-link border0" data-sortable>
+            <thead>
+                <tr>
+                    <th> Fase			</th>
+                    <th> Escola				</th>
+                    <th> Disciplina			</th>
+                    <th> Turno				</th>
+                    <th> Tipo de Aula        </th>
+                    <th> Afastamento			</th>
+                    <th> Período Afastamento	</th>
+                    <th> Qtde de Aulas       </th>
+                    <th> Turma               </th>
+                </tr>
+            </thead>
+            <tbody>
+                @*@foreach (var item in Model)
+                    {*@
+                <tr>
+                    <td>Carga Horária               </td>
+                    <td> @NomeEscola                </td>
+                    <td> @disciplina                </td>
+                    <td> @turno                     </td>
+                    <td> @tipoAula                  </td>
+                    <td> @afastamento               </td>
+                    <td> @Model.PERIODOAFASTAMENTO  </td>
+                    <td> @Model.QTDEAULAS           </td>
+                    <td> @Model.TURMA               </td>
+                </tr>
+                @*}*@
+            </tbody>
+        </table>
+    </div>
+
+    </br></br></br></br></br></br></br></br></br>
+
+    <span>Estou <span style="color:red"><B>CIENTE</B></span> que devo manter, durante todo o ano letivo, a carga horária mínima de 19 aulas, devendo participar obrigatoriamente de todas as sessões de atribuição de aulas nas escolas (sede e exercício) e na Diretoria para completar a carga horária.</span>
+
+    </br></br></br></br></br>
+    <span>__________________________________________________</span></br>
+    <span>Assinatura do Professor</span>
+
+
+</div>
+</br></br></br>
+<div class="form-group">
+    <div class="col-md-10">
+        <input type="submit" value="Salvar" class="btn btn-primary btn-large" />
+        @Html.ActionLink("Limpar", "Limpar", null, null, new { @class = "btn btn-primary btn-large" })
+        @Html.ActionLink("Imprimir", "Limpar", null,  new { @class = "btn btn-primary btn-large" }, new { onclick = "CriaPDF();" })
+     </div>
+</div>
+
+@section PageScript{
+    <script src="~/template/js/plugins/sortable.js"></script>
+    <script src="~/template/js/plugins/jquery.mask.js"></script>
+    <script src="~/Scripts/Modulos/Atendimento/Pages/Interacao/Index.js"></script>
+    <script src="~/Scripts/Modulos/Atendimento/Atendimento.js"></script>
+}
+
+<html>
+<head>
+    <title>Converter uma Tabela para PDF usando JavaScript</title>
+    <style>
+        table {
+            width: 300px;
+            font: 20px Calibri;
+        }
+
+        table, th, td {
+            border: solid 1px #DDD;
+            border-collapse: collapse;
+            padding: 2px 3px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+      <p>
+        <input type="button" value="Criar PDF" id="btnImprimir" onclick="CriaPDF()" />
+        <input type="button" value="Salvar" id="btnSalvar" onclick="CriaPDF()" />
+        @Html.ActionLink("Limpar", "Limpar", null, null, new { @class = "btn btn-primary btn-large" })
+    </p>
+</body>
+
+<script>
+    function CriaPDF() {
+        var minhaTabela = document.getElementById('tabela').innerHTML;
+
+        var style = "<style>";
+        style = style + "table {width: 100%;font: 20px Calibri;}";
+        style = style + "table, th, td {border: solid 1px #DDD; border-collapse: collapse;";
+        style = style + "padding: 2px 3px;text-align: center;}";
+        style = style + "</style>";
+
+        // CRIA UM OBJETO WINDOW
+        var win = window.open('', '', 'height=700,width=700');
+
+        win.document.write('<html><head>');
+        win.document.write('<title>Empregados</title>');    // <title> CABEÇALHO DO PDF.
+        win.document.write(style);                          // INCLUI UM ESTILO NA TAB HEAD
+        win.document.write('</head>');
+        win.document.write('<body>');
+        win.document.write(minhaTabela);                    // O CONTEUDO DA TABELA DENTRO DA TAG BODY
+        win.document.write('</body></html>');
+
+        //win.document.close(); 	                        // FECHA A JANELA
+        // win.print();                                      // IMPRIME O CONTEUDO
+    }
+</script>
+</html>

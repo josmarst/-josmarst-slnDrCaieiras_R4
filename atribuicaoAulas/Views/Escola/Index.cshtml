@@ -1,0 +1,161 @@
+﻿@model IEnumerable<atribuicaoAulas.Escola>
+
+@Html.Hidden("id", "", new { @class = "hiddenid" })
+
+<div class="panel panel-default ">
+    <!-- Topo -->
+    <div class="panel-heading">
+        <h2>Escolas</h2>
+        <span class="tools pull-right"></span>
+    </div>
+    <div class="panel-body">
+        <div class="col-lg-12 offset-0">
+            <!-- table responsive -->
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover table-striped sortable-theme-bootstrap table-link border0" data-sortable>
+                    <thead>
+                        <tr>
+                            <th>
+                                Município
+                            </th>
+                            <th>
+                                Escola
+                            </th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Municipio.descrMunicipio)
+                                </td>
+                                <td>
+                                    @Html.ActionLink(item.descrEscola, "EditAula", new { id = item.IdEscola })
+                                </td>
+                                @if (Session["usuarioLogado"] != null && ((atribuicaoAulas.ACESSO)(Session["usuarioLogado"])).IDPERFIL == 1)
+                                {
+                                    var myModal = item.IdEscola;
+                                    <td>
+                                        @Html.ActionLink("Visualizar Aulas", "EditAula", new { id = item.IdEscola }, null)  |
+                                        @Html.ActionLink("Editar Escola", "EditEscola", new { id = item.IdEscola }, null)  |
+                                        <a href="#" onclick="ConfirmDelete(@item.IdEscola)">Excluir Escola</a>
+                                    </td>
+                                }
+                            </tr>
+                        }
+                        @foreach (var aulasNaoDisponiveis in ViewBag.aulasNaoDisponiveis)
+                        {
+                            <tr>
+                                <td>
+                                    @aulasNaoDisponiveis.Municipio.descrMunicipio
+                                </td>
+                                <td>
+                                    @aulasNaoDisponiveis.descrEscola
+                                </td>
+
+                                @if (Session["usuarioLogado"] != null && ((atribuicaoAulas.ACESSO)(Session["usuarioLogado"])).IDPERFIL == 1)
+                                {
+                                    var myModal = aulasNaoDisponiveis.IdEscola;
+                                    <td>
+                                        @Html.ActionLink("Visualizar Aulas", "EditAula", new { id = aulasNaoDisponiveis.IdEscola }, null) |
+                                        @Html.ActionLink("Editar Escola", "EditEscola", new { id = aulasNaoDisponiveis.IdEscola }, null) |
+                                        <a href="#" onclick="ConfirmDelete(@aulasNaoDisponiveis.IdEscola)">Excluir Escola</a>
+                                    </td>
+                                }
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+                <div class="modal fade" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <a href="#" class="close" data-dismiss="modal">&times;</a>
+                                <h3 class="modal-title">Excluir</h3>
+                            </div>
+                            <div class="modal-body">
+                                <h4>Deseja excluir o registro? </h4>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="btn btn-default" data-dismiss="modal">Cancelar</a>
+                                <a href="#" class="btn btn-success" onclick="DeleteRegister()">Excluir</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModalErro">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <a href="#" class="close" data-dismiss="modal">&times;</a>
+                                <h3 class="modal-title">Erro de Exclusão!</h3>
+                            </div>
+                            <div class="modal-body">
+                                <h4>O registro não pôde ser excluído. Existem aulas vinculadas a ele.  </h4>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="btn btn-warning" data-dismiss="modal">OK</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <input type="hidden" id="hiddenIdEscola" />
+            </div>
+        </div>
+    </div>
+    @if (Session["usuarioLogado"] != null)
+    {
+        <table>
+            <tr>
+                @if (((atribuicaoAulas.ACESSO)(Session["usuarioLogado"])).IDPERFIL == 1)
+                {
+                    <td>
+                        <p> <a href="/Escola/Create" style="visibility:visible" title="Nova" class="btn btn-primary btn-large">Nova</a></p>
+                    </td>
+                    <td style="width:10px"></td>
+                }
+                @*<td>
+                        <p> <a href="/Account/Sair" style="visibility:visible" title="Sair" class="btn btn-primary btn-large">Sair</a></p>
+                    </td>*@
+            </tr>
+        </table>
+    }
+</div>
+
+@*<script src="@Url.Content("~/Scripts/jquery-1.10.2.js")" type="text/javascript"></script>*@
+<script src="@Url.Content("~/Scripts/jquery.unobtrusive-ajax.js")" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="@Url.Content("~/Scripts/bootstrap.min.js")" type="text/javascript"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script>
+    var ConfirmDelete = function (IdEscola) {
+        $("#hiddenIdEscola").val(IdEscola);
+        $("#myModal").modal("show");
+    }
+
+    var DeleteRegister = function () {
+        var id = $("#hiddenIdEscola").val();
+        $.ajax({
+            type: "POST",
+            url: "/Escola/DeleteConfirmed",
+            data: { id: id },
+            dataType: "json",
+            success: function (result) {
+                if (result == false) {
+                    $("#myModal").modal("hide");
+                    $("#myModalErro").modal("show");
+                }
+                else {
+                    $("#myModal").modal("hide");
+                    window.location.href = "/escola/Index";
+                }
+            }
+        });
+    }
+</script>

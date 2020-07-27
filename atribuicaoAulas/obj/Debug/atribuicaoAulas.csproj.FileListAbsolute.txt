@@ -1,0 +1,1146 @@
+F:\slnDrCaieiras\atribuicaoAulas\bin\ApplicationInsights.config
+F:\slnDrCaieiras\atribuicaoAulas\bin\roslyn\csc.exe
+F:\slnDrCaieiras\atribuicaoAulas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\slnDrCaieiras\atribuicaoAulas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\slnDrCaieiras\atribuicaoAulas\bin\roslyn\System.Collections.Immutable.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\roslyn\System.Reflection.Metadata.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\roslyn\vbc.exe
+F:\slnDrCaieiras\atribuicaoAulas\bin\roslyn\VBCSCompiler.exe
+F:\slnDrCaieiras\atribuicaoAulas\bin\roslyn\VBCSCompiler.exe.config
+F:\slnDrCaieiras\atribuicaoAulas\bin\atribuicaoAulas.dll.config
+F:\slnDrCaieiras\atribuicaoAulas\bin\atribuicaoAulas.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\atribuicaoAulas.pdb
+F:\slnDrCaieiras\atribuicaoAulas\bin\Antlr3.Runtime.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\EntityFramework.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\EntityFramework.SqlServer.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AI.Agent.Intercept.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AI.DependencyCollector.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AI.Web.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AI.WindowsServer.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.ApplicationInsights.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Core.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.Cookies.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.Facebook.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.Google.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.OAuth.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.Twitter.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Web.Infrastructure.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\Newtonsoft.Json.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\Owin.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\System.Web.Helpers.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\System.Web.Mvc.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\System.Web.Optimization.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\System.Web.Razor.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\System.Web.WebPages.Deployment.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\System.Web.WebPages.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\System.Web.WebPages.Razor.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\WebGrease.dll
+F:\slnDrCaieiras\atribuicaoAulas\bin\EntityFramework.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\EntityFramework.SqlServer.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AI.DependencyCollector.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AI.Web.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AI.WindowsServer.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.ApplicationInsights.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Core.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\System.Web.Helpers.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\System.Web.Mvc.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\System.Web.Optimization.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\System.Web.Razor.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\System.Web.WebPages.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\System.Web.WebPages.Deployment.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\System.Web.WebPages.Razor.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\Antlr3.Runtime.pdb
+F:\slnDrCaieiras\atribuicaoAulas\bin\Newtonsoft.Json.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.Facebook.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.Cookies.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.OAuth.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.Google.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.Twitter.xml
+F:\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\slnDrCaieiras\atribuicaoAulas\obj\Debug\atribuicaoAulas.csprojResolveAssemblyReference.cache
+F:\slnDrCaieiras\atribuicaoAulas\obj\Debug\atribuicaoAulas.Migrations.InitialCreate.resources
+F:\slnDrCaieiras\atribuicaoAulas\obj\Debug\atribuicaoAulas.csproj.GenerateResource.Cache
+F:\slnDrCaieiras\atribuicaoAulas\obj\Debug\atribuicaoAulas.dll
+F:\slnDrCaieiras\atribuicaoAulas\obj\Debug\atribuicaoAulas.pdb
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\ApplicationInsights.config
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\roslyn\csc.exe
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\roslyn\vbc.exe
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\roslyn\VBCSCompiler.exe
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\atribuicaoAulas.dll.config
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\atribuicaoAulas.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\atribuicaoAulas.pdb
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Antlr3.Runtime.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\AutoMapper.Attributes.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\AutoMapper.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\EntityFramework.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\EntityFramework.SqlServer.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AI.Web.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.ApplicationInsights.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Newtonsoft.Json.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Owin.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Swashbuckle.Core.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\System.Net.Http.Formatting.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\System.ValueTuple.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\System.Web.Helpers.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\System.Web.Http.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\System.Web.Http.WebHost.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\System.Web.Mvc.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\System.Web.Optimization.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\System.Web.Razor.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\System.Web.WebPages.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\System.Web.WebPages.Razor.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\WebActivatorEx.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\WebGrease.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\AutoMapper.pdb
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\AutoMapper.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\EntityFramework.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\EntityFramework.SqlServer.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AI.Web.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.ApplicationInsights.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\System.Net.Http.Formatting.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\System.ValueTuple.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\System.Web.Http.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\System.Web.Http.WebHost.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\System.Web.Helpers.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\System.Web.Mvc.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\System.Web.Optimization.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\System.Web.Razor.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\System.Web.WebPages.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\System.Web.WebPages.Razor.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Antlr3.Runtime.pdb
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Newtonsoft.Json.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\obj\Debug\atribuicaoAulas.Migrations.InitialCreate.resources
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\obj\Debug\atribuicaoAulas.Migrations.InitialCreate1.resources
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\obj\Debug\atribuicaoAulas.csproj.GenerateResource.Cache
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\obj\Debug\atribuicaoAulas.dll
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\obj\Debug\atribuicaoAulas.pdb
+C:\Users\jose.osantos\documents\visual studio 2015\Projects\slnDrCaieiras\atribuicaoAulas\obj\Debug\atribuicaoAulas.csprojResolveAssemblyReference.cache
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\ApplicationInsights.config
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\roslyn\csc.exe
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\roslyn\vbc.exe
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\roslyn\VBCSCompiler.exe
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\atribuicaoAulas.dll.config
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\atribuicaoAulas.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\atribuicaoAulas.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Antlr3.Runtime.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\AutoMapper.Attributes.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\AutoMapper.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\EntityFramework.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\EntityFramework.SqlServer.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AI.Web.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.ApplicationInsights.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Newtonsoft.Json.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Owin.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Swashbuckle.Core.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Net.Http.Formatting.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.ValueTuple.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.Helpers.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.Http.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.Http.WebHost.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.Mvc.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.Optimization.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.Razor.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.WebPages.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.WebPages.Razor.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\WebActivatorEx.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\WebGrease.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\AutoMapper.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\AutoMapper.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\EntityFramework.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\EntityFramework.SqlServer.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AI.Web.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.ApplicationInsights.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Net.Http.Formatting.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.ValueTuple.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.Http.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.Http.WebHost.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.Helpers.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.Mvc.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.Optimization.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.Razor.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.WebPages.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.WebPages.Razor.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Antlr3.Runtime.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Newtonsoft.Json.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\obj\Debug\atribuicaoAulas.Migrations.InitialCreate.resources
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\obj\Debug\atribuicaoAulas.Migrations.InitialCreate1.resources
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\obj\Debug\atribuicaoAulas.csproj.GenerateResource.Cache
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\obj\Debug\atribuicaoAulas.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\obj\Debug\atribuicaoAulas.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R1\atribuicaoAulas\obj\Debug\atribuicaoAulas.csprojResolveAssemblyReference.cache
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\ApplicationInsights.config
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\roslyn\csc.exe
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\roslyn\vbc.exe
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\roslyn\VBCSCompiler.exe
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\atribuicaoAulas.dll.config
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\atribuicaoAulas.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\atribuicaoAulas.pdb
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Antlr3.Runtime.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\AutoMapper.Attributes.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\AutoMapper.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\EntityFramework.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\EntityFramework.SqlServer.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AI.Web.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.ApplicationInsights.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Newtonsoft.Json.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Owin.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Swashbuckle.Core.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Net.Http.Formatting.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.ValueTuple.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.Helpers.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.Http.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.Http.WebHost.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.Mvc.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.Optimization.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.Razor.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.WebPages.Deployment.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.WebPages.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.WebPages.Razor.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\WebActivatorEx.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\WebGrease.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\AutoMapper.pdb
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\AutoMapper.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\EntityFramework.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\EntityFramework.SqlServer.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AI.Web.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.ApplicationInsights.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Net.Http.Formatting.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.ValueTuple.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.Http.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.Http.WebHost.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.Helpers.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.Mvc.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.Optimization.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.Razor.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.WebPages.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.WebPages.Deployment.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\System.Web.WebPages.Razor.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Antlr3.Runtime.pdb
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Newtonsoft.Json.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\obj\Debug\atribuicaoAulas.Migrations.InitialCreate.resources
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\obj\Debug\atribuicaoAulas.Migrations.InitialCreate1.resources
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\obj\Debug\atribuicaoAulas.csproj.GenerateResource.Cache
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\obj\Debug\atribuicaoAulas.csproj.CoreCompileInputs.cache
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\obj\Debug\atribuicaoAulas.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\obj\Debug\atribuicaoAulas.pdb
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R1\atribuicaoAulas\obj\Debug\atribuicaoAulas.csprojResolveAssemblyReference.cache
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\ApplicationInsights.config
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\csc.exe
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\vbc.exe
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\VBCSCompiler.exe
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\atribuicaoAulas.dll.config
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\atribuicaoAulas.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\atribuicaoAulas.pdb
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Antlr3.Runtime.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\AutoMapper.Attributes.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\AutoMapper.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\EntityFramework.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\EntityFramework.SqlServer.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.Web.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.ApplicationInsights.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Newtonsoft.Json.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Owin.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Swashbuckle.Core.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Net.Http.Formatting.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.ValueTuple.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Helpers.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Http.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Http.WebHost.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Mvc.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Optimization.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Razor.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.WebPages.Deployment.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.WebPages.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.WebPages.Razor.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\WebActivatorEx.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\WebGrease.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\AutoMapper.pdb
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\AutoMapper.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\EntityFramework.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\EntityFramework.SqlServer.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.Web.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.ApplicationInsights.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Net.Http.Formatting.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.ValueTuple.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Http.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Http.WebHost.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Helpers.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Mvc.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Optimization.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Razor.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.WebPages.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.WebPages.Deployment.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.WebPages.Razor.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Antlr3.Runtime.pdb
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Newtonsoft.Json.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\obj\Debug\atribuicaoAulas.Migrations.InitialCreate.resources
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\obj\Debug\atribuicaoAulas.Migrations.InitialCreate1.resources
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\obj\Debug\atribuicaoAulas.csproj.GenerateResource.Cache
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\obj\Debug\atribuicaoAulas.csproj.CoreCompileInputs.cache
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\obj\Debug\atribuicaoAulas.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\obj\Debug\atribuicaoAulas.pdb
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\slnDrCaieiras_R2\atribuicaoAulas\obj\Debug\atribuicaoAulas.csprojResolveAssemblyReference.cache
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\ApplicationInsights.config
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\csc.exe
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\vbc.exe
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\VBCSCompiler.exe
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\atribuicaoAulas.dll.config
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\atribuicaoAulas.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\atribuicaoAulas.pdb
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Antlr3.Runtime.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\AutoMapper.Attributes.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\AutoMapper.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\EntityFramework.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\EntityFramework.SqlServer.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.Web.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.ApplicationInsights.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Newtonsoft.Json.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Owin.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Swashbuckle.Core.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Net.Http.Formatting.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\System.ValueTuple.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Helpers.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Http.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Http.WebHost.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Mvc.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Optimization.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Razor.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.WebPages.Deployment.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.WebPages.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.WebPages.Razor.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\WebActivatorEx.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\WebGrease.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Antlr3.Runtime.pdb
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\AutoMapper.pdb
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\AutoMapper.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\EntityFramework.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\EntityFramework.SqlServer.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.Web.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.ApplicationInsights.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\Newtonsoft.Json.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Net.Http.Formatting.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\System.ValueTuple.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Helpers.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Http.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Http.WebHost.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Mvc.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Optimization.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Razor.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.WebPages.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.WebPages.Deployment.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.WebPages.Razor.xml
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\obj\Debug\atribuicaoAulas.Migrations.InitialCreate.resources
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\obj\Debug\atribuicaoAulas.Migrations.InitialCreate1.resources
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\obj\Debug\atribuicaoAulas.csproj.GenerateResource.Cache
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\obj\Debug\atribuicaoAulas.csproj.CoreCompileInputs.cache
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\obj\Debug\atribuicaoAulas.dll
+C:\Users\osmar_mp1izh5\Documents\Visual Studio 2017\Projects\Nova pasta\slnDrCaieiras_R2\atribuicaoAulas\obj\Debug\atribuicaoAulas.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\ApplicationInsights.config
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\csc.exe
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\vbc.exe
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\VBCSCompiler.exe
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\atribuicaoAulas.dll.config
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\atribuicaoAulas.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\atribuicaoAulas.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Antlr3.Runtime.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\AutoMapper.Attributes.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\AutoMapper.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\EntityFramework.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\EntityFramework.SqlServer.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.Web.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.ApplicationInsights.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Newtonsoft.Json.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Owin.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Swashbuckle.Core.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Net.Http.Formatting.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.ValueTuple.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Helpers.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Http.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Http.WebHost.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Mvc.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Optimization.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Razor.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.WebPages.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.WebPages.Razor.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\WebActivatorEx.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\WebGrease.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Antlr3.Runtime.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\AutoMapper.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\AutoMapper.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\EntityFramework.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\EntityFramework.SqlServer.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.Web.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.ApplicationInsights.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\Newtonsoft.Json.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Net.Http.Formatting.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.ValueTuple.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Helpers.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Http.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Http.WebHost.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Mvc.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Optimization.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.Razor.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.WebPages.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\bin\System.Web.WebPages.Razor.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\obj\Debug\atribuicaoAulas.Migrations.InitialCreate.resources
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\obj\Debug\atribuicaoAulas.Migrations.InitialCreate1.resources
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\obj\Debug\atribuicaoAulas.csproj.GenerateResource.Cache
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\obj\Debug\atribuicaoAulas.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\obj\Debug\atribuicaoAulas.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2\atribuicaoAulas\obj\Debug\atribuicaoAulas.csprojResolveAssemblyReference.cache
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\ApplicationInsights.config
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\roslyn\csc.exe
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\roslyn\vbc.exe
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\roslyn\VBCSCompiler.exe
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\atribuicaoAulas.dll.config
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\atribuicaoAulas.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\atribuicaoAulas.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Antlr3.Runtime.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\AutoMapper.Attributes.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\AutoMapper.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\EntityFramework.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\EntityFramework.SqlServer.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.AI.Web.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.ApplicationInsights.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.Owin.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.Owin.Security.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Newtonsoft.Json.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Owin.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Swashbuckle.Core.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\System.Net.Http.Formatting.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\System.ValueTuple.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\System.Web.Helpers.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\System.Web.Http.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\System.Web.Http.WebHost.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\System.Web.Mvc.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\System.Web.Optimization.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\System.Web.Razor.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\System.Web.WebPages.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\System.Web.WebPages.Razor.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\WebActivatorEx.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\WebGrease.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Antlr3.Runtime.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\AutoMapper.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\AutoMapper.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\EntityFramework.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\EntityFramework.SqlServer.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.AI.Web.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.ApplicationInsights.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.Owin.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.Owin.Security.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\Newtonsoft.Json.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\System.Net.Http.Formatting.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\System.ValueTuple.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\System.Web.Helpers.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\System.Web.Http.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\System.Web.Http.WebHost.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\System.Web.Mvc.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\System.Web.Optimization.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\System.Web.Razor.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\System.Web.WebPages.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\System.Web.WebPages.Razor.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\obj\Debug\atribuicaoAulas.csprojResolveAssemblyReference.cache
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\obj\Debug\atribuicaoAulas.Migrations.InitialCreate.resources
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\obj\Debug\atribuicaoAulas.Migrations.InitialCreate1.resources
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\obj\Debug\atribuicaoAulas.csproj.GenerateResource.Cache
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\obj\Debug\atribuicaoAulas.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\obj\Debug\atribuicaoAulas.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\ClosedXML.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\DocumentFormat.OpenXml.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\ExcelNumberFormat.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\FastMember.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\System.IO.Packaging.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\ClosedXML.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\ClosedXML.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\DocumentFormat.OpenXml.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_Dia_Horario\atribuicaoAulas\bin\ExcelNumberFormat.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\ApplicationInsights.config
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\roslyn\csc.exe
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\roslyn\vbc.exe
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\roslyn\VBCSCompiler.exe
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\atribuicaoAulas.dll.config
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\atribuicaoAulas.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\atribuicaoAulas.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Antlr3.Runtime.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\AutoMapper.Attributes.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\AutoMapper.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\ClosedXML.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\DocumentFormat.OpenXml.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\EntityFramework.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\EntityFramework.SqlServer.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\ExcelNumberFormat.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\FastMember.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.AI.Web.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.ApplicationInsights.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.Owin.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Newtonsoft.Json.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Owin.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Swashbuckle.Core.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\System.IO.Packaging.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\System.Net.Http.Formatting.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\System.ValueTuple.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\System.Web.Helpers.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\System.Web.Http.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\System.Web.Http.WebHost.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\System.Web.Mvc.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\System.Web.Optimization.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\System.Web.Razor.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\System.Web.WebPages.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\System.Web.WebPages.Razor.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\WebActivatorEx.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\WebGrease.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Antlr3.Runtime.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\AutoMapper.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\AutoMapper.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\ClosedXML.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\ClosedXML.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\DocumentFormat.OpenXml.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\EntityFramework.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\EntityFramework.SqlServer.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\ExcelNumberFormat.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.AI.Web.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.ApplicationInsights.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.Owin.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\Newtonsoft.Json.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\System.Net.Http.Formatting.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\System.ValueTuple.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\System.Web.Helpers.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\System.Web.Http.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\System.Web.Http.WebHost.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\System.Web.Mvc.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\System.Web.Optimization.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\System.Web.Razor.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\System.Web.WebPages.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\bin\System.Web.WebPages.Razor.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\obj\Debug\atribuicaoAulas.Migrations.InitialCreate.resources
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\obj\Debug\atribuicaoAulas.Migrations.InitialCreate1.resources
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\obj\Debug\atribuicaoAulas.csproj.GenerateResource.Cache
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\obj\Debug\atribuicaoAulas.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\obj\Debug\atribuicaoAulas.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web\atribuicaoAulas\obj\Debug\atribuicaoAulas.csprojResolveAssemblyReference.cache
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\ApplicationInsights.config
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\roslyn\csc.exe
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\roslyn\vbc.exe
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\roslyn\VBCSCompiler.exe
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\atribuicaoAulas.dll.config
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\atribuicaoAulas.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\atribuicaoAulas.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Antlr3.Runtime.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\AutoMapper.Attributes.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\AutoMapper.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\ClosedXML.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\DocumentFormat.OpenXml.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\EntityFramework.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\EntityFramework.SqlServer.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\ExcelNumberFormat.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\FastMember.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.AI.Web.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.ApplicationInsights.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.Owin.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.Owin.Security.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Newtonsoft.Json.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Owin.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Swashbuckle.Core.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\System.IO.Packaging.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\System.Net.Http.Formatting.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\System.ValueTuple.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\System.Web.Helpers.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\System.Web.Http.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\System.Web.Http.WebHost.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\System.Web.Mvc.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\System.Web.Optimization.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\System.Web.Razor.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\System.Web.WebPages.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\System.Web.WebPages.Razor.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\WebActivatorEx.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\WebGrease.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Antlr3.Runtime.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\AutoMapper.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\AutoMapper.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\ClosedXML.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\ClosedXML.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\DocumentFormat.OpenXml.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\EntityFramework.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\EntityFramework.SqlServer.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\ExcelNumberFormat.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.AI.Web.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.ApplicationInsights.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.Owin.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.Owin.Security.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\Newtonsoft.Json.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\System.Net.Http.Formatting.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\System.ValueTuple.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\System.Web.Helpers.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\System.Web.Http.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\System.Web.Http.WebHost.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\System.Web.Mvc.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\System.Web.Optimization.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\System.Web.Razor.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\System.Web.WebPages.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\bin\System.Web.WebPages.Razor.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\obj\Debug\atribuicaoAulas.csprojResolveAssemblyReference.cache
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\obj\Debug\atribuicaoAulas.Migrations.InitialCreate.resources
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\obj\Debug\atribuicaoAulas.Migrations.InitialCreate1.resources
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\obj\Debug\atribuicaoAulas.csproj.GenerateResource.Cache
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\obj\Debug\atribuicaoAulas.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R2_Web_R3\atribuicaoAulas\obj\Debug\atribuicaoAulas.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\ApplicationInsights.config
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\roslyn\csc.exe
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\roslyn\vbc.exe
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\roslyn\VBCSCompiler.exe
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\atribuicaoAulas.dll.config
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\atribuicaoAulas.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\atribuicaoAulas.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Antlr3.Runtime.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\AutoMapper.Attributes.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\AutoMapper.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\ClosedXML.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\DocumentFormat.OpenXml.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\EntityFramework.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\EntityFramework.SqlServer.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\ExcelNumberFormat.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\FastMember.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.AI.Web.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.ApplicationInsights.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.Owin.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Newtonsoft.Json.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Owin.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Swashbuckle.Core.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\System.IO.Packaging.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\System.Net.Http.Formatting.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\System.ValueTuple.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\System.Web.Helpers.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\System.Web.Http.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\System.Web.Http.WebHost.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\System.Web.Mvc.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\System.Web.Optimization.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\System.Web.Razor.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\System.Web.WebPages.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\System.Web.WebPages.Razor.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\WebActivatorEx.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\WebGrease.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Antlr3.Runtime.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\AutoMapper.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\AutoMapper.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\ClosedXML.pdb
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\ClosedXML.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\DocumentFormat.OpenXml.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\EntityFramework.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\EntityFramework.SqlServer.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\ExcelNumberFormat.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.AI.Web.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.ApplicationInsights.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.Owin.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\Newtonsoft.Json.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\System.Net.Http.Formatting.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\System.ValueTuple.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\System.Web.Helpers.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\System.Web.Http.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\System.Web.Http.WebHost.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\System.Web.Mvc.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\System.Web.Optimization.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\System.Web.Razor.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\System.Web.WebPages.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\bin\System.Web.WebPages.Razor.xml
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\obj\Debug\atribuicaoAulas.csprojResolveAssemblyReference.cache
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\obj\Debug\atribuicaoAulas.Migrations.InitialCreate.resources
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\obj\Debug\atribuicaoAulas.Migrations.InitialCreate1.resources
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\obj\Debug\atribuicaoAulas.csproj.GenerateResource.Cache
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\obj\Debug\atribuicaoAulas.dll
+C:\Users\jose.osantos\Documents\Visual Studio 2015\Projects\slnDrCaieiras_R3_Web\atribuicaoAulas\obj\Debug\atribuicaoAulas.pdb

@@ -1,0 +1,371 @@
+﻿@model atribuicaoAulas.AULASDISPONIVEIS
+@{
+    var Tipoaula = ViewBag.IdTipoAula;
+    var Turno = ViewBag.IdTurno;
+    var Disciplina = ViewBag.IdDisciplina;
+    var Afastamento = ViewBag.IdAfastamento;
+    var Estado = ViewBag.IdEstado;
+    var Municipio = ViewBag.idMunicipio;
+    var Escola = ViewBag.IdEscola;
+    var Horario = ViewBag.idHorario;
+    var diasSemana = ViewBag.IdDiasSemana;
+    var bloqueio = ViewBag.BloqueioCadastroAula;
+
+    String usu = ((atribuicaoAulas.ACESSO)(Session["usuariologado"])).CPF;
+}
+<div class="panel panel-default ">
+    <!-- Topo -->
+    <div class="panel-heading">
+        <h2>Aulas Disponíveis  @Municipio</h2>
+        <span class="tools pull-right">  </span>
+    </div>
+    @if (bloqueio == "Desbloqueado")
+    {
+        <form id="formCadastro">
+            @Html.AntiForgeryToken()
+            <div class="form-horizontal">
+                <hr />
+                <div class="form-group">
+                    @Html.LabelForModel("Escola:", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-8">
+                        @Html.DropDownList("idEscola", (SelectList)ViewBag.IDESCOLA, new { @class = "form-control", @readonly = "readonly" })
+                        @Html.ValidationMessageFor(model => model.IDESCOLA, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelForModel("Profº Titular:", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-8">
+                        @Html.EditorFor(model => model.PROFTITULAR, new { htmlAttributes = new { @class = "form-control", placeholder = "Professor Titular" } })
+                        @Html.ValidationMessageFor(model => model.PROFTITULAR, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="bg-important col-md-8  col-md-offset-2" style="background-color: #EEE">
+
+                        <div class="line3"></div>
+                        <div class="panel-body" id="turno1">
+                            <div class="col-lg-12 offset-0">
+                                <!-- table responsive -->
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-hover table-striped sortable-theme-bootstrap table-link border0" data-sortable>
+                                        <thead>
+                                            <tr>
+                                                <th>		</th>
+
+                                                @*@foreach (var item in Horario)*@
+                                                @foreach (var dia in diasSemana)
+                                                {
+                                                    <th>@dia.Text	</th>
+                                                }
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                @Html.LabelForModel("Disciplina:", htmlAttributes: new { @class = "control-label col-md-2" })
+                                                <div class="col-md-3">
+                                                    @Html.DropDownList("idDisciplina1", (SelectList)ViewBag.IDDISCIPLINA, "--  Selecione  --", new { @class = "form-control" })
+                                                </div>
+                                                @Html.LabelForModel("Turno:", htmlAttributes: new { @class = "control-label col-md-1" })
+                                                <div class="col-md-3">
+                                                    <h4><b> MANHÃ </b> </h4>
+                                                </div>
+                                            </tr>
+                                            <hr />
+                                            @*@foreach (var dia in diasSemana)*@
+                                            @foreach (var item in Horario)
+                                            {
+                                                <tr>
+                                                    <td class="form-control"><B>@item.Text   </B></td>
+                                                    <td>
+                                                        @Html.EditorFor(model => model.TURMA, new { htmlAttributes = new { @id = "Manha_" + item.Text + "_PrimeiraAula", @class = "form-control manha", placeholder = "Turma" } })
+                                                    </td>
+                                                    <td>
+                                                        @Html.EditorFor(model => model.TURMA, new { htmlAttributes = new { @id = "Manha_" + item.Text + "_SegundaAula", @class = "form-control manha", placeholder = "Turma" } })
+                                                    </td>
+                                                    <td>
+                                                        @Html.EditorFor(model => model.TURMA, new { htmlAttributes = new { @id = "Manha_" + item.Text + "_TerceiraAula", @class = "form-control manha", placeholder = "Turma" } })
+                                                    </td>
+                                                    <td>
+                                                        @Html.EditorFor(model => model.TURMA, new { htmlAttributes = new { @id = "Manha_" + item.Text + "_QuartaAula", @class = "form-control manha", placeholder = "Turma" } })
+                                                    </td>
+                                                    <td>
+                                                        @Html.EditorFor(model => model.TURMA, new { htmlAttributes = new { @id = "Manha_" + item.Text + "_QuintaAula", @class = "form-control manha", placeholder = "Turma" } })
+                                                    </td>
+                                                    @*<td>
+                                                            @Html.EditorFor(model => model.TURMA, new { htmlAttributes = new { @id = "Manha_" + item.Text + "_SextaAula", @class = "form-control manha", placeholder = "Turma" } })
+                                                        </td>*@
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            @Html.EditorFor(model => model.TURMA, new { htmlAttributes = new { @class = "form-control", placeholder = "ATPC" } })
+                        </div>
+                        <div class="line3"></div>
+                        <div class="line3"></div>
+                        @*}*@
+                        <div class="line3"></div>
+                        <div class="panel-body" id="turno2">
+                            <div class="col-lg-12 offset-0">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-hover table-striped sortable-theme-bootstrap table-link border0" data-sortable>
+                                        <thead>
+                                            <tr>
+                                                <th>		</th>
+                                                @foreach (var item in Horario)
+                                                {
+                                                    <th>@item.Text	</th>
+                                                }
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                @Html.LabelForModel("Disciplina:", htmlAttributes: new { @class = "control-label col-md-2" })
+                                                <div class="col-md-3">
+                                                    @Html.DropDownList("idDisciplina2", (SelectList)ViewBag.IDDISCIPLINA, "--  Selecione  --", new { @class = "form-control" })
+                                                </div>
+                                                @Html.LabelForModel("Turno:", htmlAttributes: new { @class = "control-label col-md-1" })
+                                                <div class="col-md-3">
+                                                    <h4><b>  TARDE </b> </h4>
+                                                </div>
+                                            </tr>
+                                            <hr />
+                                            @foreach (var dia in diasSemana)
+                                            {
+                                                <tr>
+                                                    <td class="form-control"><B>@dia.Text   </B></td>
+                                                    <td>
+                                                        @Html.EditorFor(model => model.TURMA, new { htmlAttributes = new { @id = 2 + dia.Value + 1, @class = "form-control tarde", placeholder = "Turma" } })
+                                                    </td>
+                                                    <td>
+                                                        @Html.EditorFor(model => model.TURMA, new { htmlAttributes = new { @id = 2 + dia.Value + 2, @class = "form-control tarde", placeholder = "Turma" } })
+                                                    </td>
+                                                    <td>
+                                                        @Html.EditorFor(model => model.TURMA, new { htmlAttributes = new { @id = 2 + dia.Value + 3, @class = "form-control tarde", placeholder = "Turma" } })
+                                                    </td>
+                                                    <td>
+                                                        @Html.EditorFor(model => model.TURMA, new { htmlAttributes = new { @id = 2 + dia.Value + 4, @class = "form-control tarde", placeholder = "Turma" } })
+                                                    </td>
+                                                    <td>
+                                                        @Html.EditorFor(model => model.TURMA, new { htmlAttributes = new { @id = 2 + dia.Value + 5, @class = "form-control tarde", placeholder = "Turma" } })
+                                                    </td>
+                                                    <td>
+                                                        @Html.EditorFor(model => model.TURMA, new { htmlAttributes = new { @id = 2 + dia.Value + 6, @class = "form-control tarde", placeholder = "Turma" } })
+                                                    </td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            @Html.EditorFor(model => model.TURMA, new { htmlAttributes = new { @class = "form-control", placeholder = "ATPC" } })
+                        </div>
+                        <div class="line3"></div>
+                        <div class="line3"></div>
+
+                        <div class="line3"></div>
+                        <div class="panel-body" id="turno3">
+                            <div class="col-lg-12 offset-0">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-hover table-striped sortable-theme-bootstrap table-link border0" data-sortable>
+                                        <thead>
+                                            <tr>
+                                                <th>		</th>
+                                                @foreach (var item in Horario)
+                                                {
+                                                    <th>@item.Text	</th>
+                                                }
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                @Html.LabelForModel("Disciplina:", htmlAttributes: new { @class = "control-label col-md-2" })
+                                                <div class="col-md-3">
+                                                    @Html.DropDownList("idDisciplina3", (SelectList)ViewBag.IDDISCIPLINA, "--  Selecione  --", new { @class = "form-control" })
+                                                </div>
+                                                @Html.LabelForModel("Turno:", htmlAttributes: new { @class = "control-label col-md-1" })
+                                                <div class="col-md-3">
+                                                    <h4><b>  NOITE </b> </h4>
+                                                </div>
+                                            </tr>
+                                            <hr />
+                                            @foreach (var dia in diasSemana)
+                                            {
+                                                <tr>
+                                                    <td class="form-control"><B>@dia.Text   </B></td>
+                                                    <td>
+                                                        @Html.EditorFor(model => model.TURMA, new { htmlAttributes = new { @id = 3 + dia.Value + 1, @class = "form-control noite", placeholder = "Turma" } })
+                                                    </td>
+                                                    <td>
+                                                        @Html.EditorFor(model => model.TURMA, new { htmlAttributes = new { @id = 3 + dia.Value + 2, @class = "form-control noite", placeholder = "Turma" } })
+                                                    </td>
+                                                    <td>
+                                                        @Html.EditorFor(model => model.TURMA, new { htmlAttributes = new { @id = 3 + dia.Value + 3, @class = "form-control noite", placeholder = "Turma" } })
+                                                    </td>
+                                                    <td>
+                                                        @Html.EditorFor(model => model.TURMA, new { htmlAttributes = new { @id = 3 + dia.Value + 4, @class = "form-control noite", placeholder = "Turma" } })
+                                                    </td>
+                                                    <td>
+                                                        @Html.EditorFor(model => model.TURMA, new { htmlAttributes = new { @id = 3 + dia.Value + 5, @class = "form-control noite", placeholder = "Turma" } })
+                                                    </td>
+                                                    <td>
+                                                        @Html.EditorFor(model => model.TURMA, new { htmlAttributes = new { @id = 3 + dia.Value + 6, @class = "form-control noite", placeholder = "Turma" } })
+                                                    </td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            @Html.EditorFor(model => model.TURMA, new { htmlAttributes = new { @class = "form-control", placeholder = "ATPC" } })
+                        </div>
+                        <div class="line3"></div>
+                        <div class="line3"></div>
+                    </div>
+                </div>
+                <div class="offset-0">
+                    <div class="table-responsive">
+                        <div id="dvResults" class="form-group"></div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelForModel("Tipo de aula:", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-8">
+                        @Html.DropDownList("idTipoAula", (SelectList)ViewBag.IdTipoAula, "--  Selecione  --", new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.IDTIPOAULA, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelForModel("Tipo de afastamento:", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-8">
+                        @Html.DropDownList("IdAfastamento", (SelectList)ViewBag.IdAfastamento, "--  Selecione  --", new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.IDAFASTAMENTO, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelForModel("Período de Afastamento:", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-8">
+                        @Html.EditorFor(model => model.PERIODOAFASTAMENTO, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.PERIODOAFASTAMENTO, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="button" value="Salvar" onclick="adicionarAoGrid(); return false;" class="btn btn-primary btn-large" />
+                    </div>
+                </div>
+            </div>
+        </form>
+    }
+    else
+    {
+        <div class="form-horizontal">
+            <div class="form-group">
+                <div class="col-md-10">
+                    <h3 style="color:red">Atenção!</h3><h3> Cadastramento de aulas bloqueado no momento.</h3>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<script type="text/javascript">
+
+    function adicionarAoGrid() {
+        var arrManha = new Array();
+        var arrTarde = new Array();
+        var arrNoite = new Array();
+        var arrTurma = new Array();
+        var arrHorario = new Array();
+        var arrDiaSemana = new Array();
+
+        var escola = $('#idEscola').val();
+        var ProfTitular = $('#ProfTitular').val();
+        var disciplinaManha = $("#idDisciplina1 option:selected").val();
+        var disciplinaTarde = $("#idDisciplina2 option:selected").val();
+        var disciplinaNoite = $("#idDisciplina3 option:selected").val();
+        var tipoAula = $("#idTipoAula option:selected").val();
+
+        var tipoAfastamento = $("#IdAfastamento option:selected").val();
+        var periodoAfastamento = $("#PeriodoAfastamento").val();
+
+        $(".manha").each(function (index, elem) {
+            if (elem.value.trim() != "") {
+                arrManha[index] = elem.value.trim();
+            }
+        });
+
+        var arrManhaDistinct = Array.from(new Set(arrManha));
+
+        for (var i = 0; i < arrManhaDistinct.length; i++) {
+            for (var j = 0; j < arrManha.length; j++) {
+                if (arrManha[j] == arrManhaDistinct[i]) {
+                    arrDiaSemana.push(j);
+                }
+            }
+        }
+
+        $(".tarde").each(function (index, elem) {
+            if (elem.value.trim() != "") {
+                arrTarde[index] = elem.value.trim();
+            }
+        });
+        $(".noite").each(function (index, elem) {
+            if (elem.value.trim() != "") {
+                arrNoite[index] = elem.value.trim();
+            }
+        });
+
+        if (escola == "") {
+            alert("Preencha o campo Escola!"); return;
+        }
+        if (ProfTitular == "") {
+            alert("Preencha o campo Professor!"); return;
+        }
+        if (disciplinaManha == "" && disciplinaTarde == "" && disciplinaNoite == "") {
+            alert("Selecione ao menos uma Disciplina!"); return;
+        }
+        if (arrManha.length == 0 && arrTarde.length == 0 && arrNoite.length == 0) {
+            alert("Verifique o preenchimento das turmas!");
+        }
+        if (tipoAula == "") {
+            alert("Selecione o campo Tipo de Aula!"); return;
+        }
+        if (tipoAfastamento == "") {
+            alert("Selecione o campo Tipo de Afastamento!"); return;
+        }
+        if (periodoAfastamento == "") {
+            alert("Preencha o campo Período de Afastamento!"); return;
+        }
+        if (arrManha.length == 0 && arrTarde.length == 0 && arrNoite.length == 0) {
+            alert("Verifique o preenchimento das turmas!"); return;
+        }
+        $.ajax(
+           {
+               type: 'POST',
+               url: '/ACESSO/gravarDados',
+               data: { ProfTitular: ProfTitular, escola: escola, disciplinaManha: disciplinaManha, disciplinaTarde: disciplinaTarde, disciplinaNoite: disciplinaNoite, tipoAula: tipoAula, tipoAfastamento: tipoAfastamento, periodoAfastamento: periodoAfastamento, arrManha: arrManha, arrTarde: arrTarde, arrNoite: arrNoite },
+               dataType: 'html',
+               cache: false,
+               async: true,
+               success: function (data) {
+                   alert("Dados gravados com sucesso");
+               },
+               error: function (data) {
+                   alert("Erro ao gravar o dados.");
+               }
+           });
+    }
+
+    function Testnew(element) {
+        alert(element.id + " " + element.value);
+        arrManha.push(element.id, element.value);
+    }
+</script>

@@ -1,0 +1,66 @@
+﻿@model IEnumerable<atribuicaoAulas.ACESSO>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SENHA)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ATIVO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IDPERFIL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NOME)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IDESCOLA)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SENHA)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ATIVO)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IDPERFIL)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NOME)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IDESCOLA)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.CPF }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.CPF }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.CPF })
+                </td>
+            </tr>
+        }
+
+    </table>
+</body>
+</html>

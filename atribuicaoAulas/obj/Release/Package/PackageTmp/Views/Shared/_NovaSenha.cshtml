@@ -1,0 +1,67 @@
+﻿@model atribuicaoAulas.ACESSO
+
+<div class="panel-heading">
+    <h2>Redefinir Senha</h2>
+    <span class="tools pull-right">  </span>
+</div>
+<div class="col-md-6">
+    <section id="loginForm">
+        @*@using (Html.BeginForm("ResetPassword", "Account", null, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))*@
+        @using (Html.BeginForm("ResetPassword", "Account", null, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+            @*@Html.AntiForgeryToken()*@
+            <hr />
+            @*@Html.ValidationSummary("", new { @class = "text-danger" })*@
+            <div class="form-group">
+                @Html.LabelFor(m => m.CPF, new { @class = "col-md-2 control-label" })
+                <div class="col-md-5">
+                    @Html.TextBoxFor(m => m.CPF, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.CPF, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.Label("Senha Antiga", new { @class = "col-md-2 control-label" })
+                <div class="col-md-5">
+                    @Html.PasswordFor(m => m.senhaAntiga, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.senhaAntiga, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.Label("Nova Senha", new { @class = "col-md-2 control-label" })
+                <div class="col-md-5">
+                    @Html.PasswordFor(m => m.SENHA, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.SENHA, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.Label("Confirma Nova Senha", new { @class = "col-md-2 control-label" })
+                <div class="col-md-5">
+                    @Html.PasswordFor(m => m.ConfirmaSENHA, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.ConfirmaSENHA, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group" hidden="hidden">
+                @Html.LabelFor(m => m.NOME, new { @class = "col-md-2 control-label" })
+				<div class="col-md-5">
+					@Html.TextBox(" ", new { @class = "form-control", @Value = " " })
+					@Html.HiddenFor(m => m.NOME, new { @class = "form-control" })
+					@*@Html.HiddenFor(model => model.NOME, new { Value = "Nome" })*@
+					@*@Html.ValidationMessageFor(m => m.NOME, "", new { @class = "text-danger" })*@
+				</div>
+            </div>
+
+            <div class="form-group" hidden="hidden">
+                @Html.LabelFor(m => m.ATIVO, new { @class = "col-md-2 control-label" })
+                <div class="col-md-5">
+                    @Html.TextBoxFor(m => m.ATIVO, new { Value = "S" })
+                    @*@Html.ValidationMessageFor(m => m.ATIVO, "", new { @class = "text-danger" })*@
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-5">
+                    <input type="submit" class="btn btn-primary btn-large" value="Salvar" />
+                </div>
+            </div>
+        }
+    </section>
+</div>
