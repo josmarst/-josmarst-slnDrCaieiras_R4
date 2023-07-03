@@ -7,7 +7,7 @@ namespace atribuicaoAulas
     [Table("Escola")]
     public partial class Escola
     {
-        // Teste GIT
+        // Teste GIT Commit Push
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Escola()
         {
