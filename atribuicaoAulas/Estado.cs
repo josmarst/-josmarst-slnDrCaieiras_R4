@@ -7,6 +7,7 @@ namespace atribuicaoAulas
     [Table("Estado")]
     public partial class Estado
     {
+       // GIT Estado
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Estado()
         {
