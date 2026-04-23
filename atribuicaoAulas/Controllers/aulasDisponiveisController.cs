@@ -141,7 +141,7 @@ namespace atribuicaoAulas.Controllers
 			ViewBag.descrDisciplina = db.Disciplina.AsNoTracking().ToList();
 
 			return View(aulasDisp);
-
+			// Teste de Commit com GIT
 		}
 
 		public ActionResult DetailsDisciplina(int? id)
