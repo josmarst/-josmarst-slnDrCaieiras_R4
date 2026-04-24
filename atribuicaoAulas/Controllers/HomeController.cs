@@ -19,6 +19,7 @@ namespace atribuicaoAulas.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
+            // Adionado esse comentário
 
             return View();
         }
